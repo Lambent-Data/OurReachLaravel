@@ -1,18 +1,23 @@
 {
   "private": true,
   "scripts": {
-    "prod": "gulp --production",
-    "dev": "gulp watch"
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
   },
   "devDependencies": {
-    "bootstrap-sass": "3.4.*",
-    "gulp": "4.0.*",
-    "jquery": "3.4.*",
-    "laravel-elixir": "6.0.*",
-    "laravel-elixir-vue-2": "0.3.*",
-    "laravel-elixir-webpack-official": "1.0.*",
-    "lodash": "4.17.*",
-    "vue": "2.6.*",
-    "vue-resource": "1.5.*"
+    "axios": "^0.21",
+    "laravel-mix": "^6.0.6",
+    "lodash": "^4.17.19",
+    "luxon": "^1.27.0",
+    "postcss": "^8.1.14",
+    "vanillajs-datepicker": "^1.1.4"
+  },
+  "dependencies": {
+    "rrule": "^2.6.8"
   }
 }

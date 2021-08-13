@@ -1,0 +1,199 @@
+/*********** Link styling START *************/
+.links-section {
+    position: relative;
+    padding: 6px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width:250px;
+    z-index: 10;
+}
+
+.links-section .edit-button {
+    position: absolute;
+    right: 5px;
+    top: 0;
+}
+
+.links-section > .add-button {
+    position: absolute;
+    right: 50px;
+    top: 0;
+}
+
+
+/* This section is complicated because of the expanding/minimizing functionality.
+ * See also the Link object, since a little bit of css is injected 
+ * programatically in the constructLink function.
+ */
+div.link-wrapper {
+    --min-hori-padding: 8px;
+    --max-hori-padding: 8px;
+    --min-link-width: calc(60px + 2 * var(--min-hori-padding));
+    --max-link-width: calc(250px + 2 * var(--min-hori-padding));
+    --line-height: 30px;
+    --max-number-lines: 3;
+    --min-vert-padding: 2px;
+    --max-vert-padding: 7px;
+    --link-height: calc(var(--line-height) + 2*var(--min-vert-padding));
+    --expanded-link-height: calc(var(--max-number-lines) * var(--line-height) + 2 * var(--max-vert-padding));
+}
+
+div.link-box {
+    max-width:700px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+div.link-wrapper {
+    margin: 2px;
+    min-width: var(--min-link-width);
+    max-width: var(--max-link-width);
+    height: var(--link-height);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* The link div contains a div that contains the text & icon. It expands to the maximum on hover. */
+div.link {
+    max-width: var(--max-link-width);
+    pointer-events: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: var(--link-height);
+    transition: height 0.3s linear 0.2s;
+}
+
+div.link.js-hover {
+    z-index:2;
+    height: var(--expanded-link-height);
+}
+
+/* Inner div: This contains the actual link text and icon. On hover, it grows "as needed" in width and height. */
+div.link > div.link-content {
+    pointer-events: all;
+    display: flex;
+    justify-content: center;
+    max-width:100%;
+    max-height:100%;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: #003cff;
+    padding: var(--min-vert-padding) var(--min-hori-padding);
+    transition: background-color 0.4s, padding-top 0.2s linear 0.2s, padding-bottom 0.2s linear 0.2s, padding-left 0.4s, padding-right 0.4s;
+    white-space: nowrap;
+}
+
+/* Alternate colours for staff and template links */
+div.link-wrapper.staff-link div.link-content {
+    background-color: #8b2c2c;
+}
+div.link-wrapper.staff-link div.link.js-hover div.link-content {
+    background-color: #964040;
+}
+
+div.link-wrapper.template-link div.link-content {
+    background-color: #378b2c;
+}
+div.link-wrapper.template-link div.link.js-hover div.link-content {
+    background-color: #4a9640;
+}
+
+div.link.js-hover > div.link-content {
+    padding: var(--max-vert-padding) var(--max-hori-padding);
+    background-color: #3a68ff;
+    white-space: initial;
+}
+
+div.link span.link-name {
+    white-space: inherit;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    overflow: hidden;
+    margin-right:5px;
+    font-size: max(13px, min(16px, 2vw));
+    line-height: var(--line-height);
+}
+
+div.link-wrapper .link-icon {
+    margin: auto 1px;
+    transform: scale(0.75);
+    transition: transform 0.5s;
+}
+
+div.link-wrapper.js-hover .link-icon {
+    transform: scale(1);
+}
+
+div.link-wrapper.editing .link-icon {
+    display: none;
+}
+
+div.link-wrapper .edit-icon {
+    margin: auto 1px;
+    transform: scale(0.75);
+    transition: transform 0.5s;
+    display: none;
+}
+
+div.link-wrapper .edit-icon:active {
+    filter: drop-shadow(1px 1px 1px #777);
+}
+
+div.link-wrapper.js-hover .edit-icon {
+    transform: scale(1);
+}
+
+div.link-wrapper.editing .edit-icon {
+    display: initial;
+}
+
+div.link-wrapper span.edit-indicator {
+    display: none;
+    color: #afafaf;
+}
+div.link-wrapper.editing span.edit-indicator {
+    display: initial;
+}
+
+/* When editing, the background color changes. */
+div.link-wrapper.editing div.link > div { background-color: #8d8d8d; }
+div.link-wrapper.editing div.link.js-hover > div { background-color: #c1c1c1; }
+
+/* Styling for the add-link button */
+/* Show new link button if and only if editing */
+.links-section:not(.editing) .add-link-button {
+    display:none;
+    margin: auto;
+    background-color:rgb(228, 244, 255);
+}
+
+.links-section .add-link-button div.link > div { background-color: #81b387; }
+.links-section .add-link-button div.link.js-hover > div { background-color: #a6e6ae; }
+
+div.add-link-button {
+    order:10000;
+}
+
+div.add-link-button > .link-plus-icon {
+    background: url(/images/plus-circle.svg?785f24db48aacfd8961367db6887ef20) center no-repeat;
+    width: var(--link-height);
+    height: var(--link-height);
+}
+
+/*********** Link styling END *************/
+
+/*********** Link form styling START ************/
+
+.link-form .field-label-box {
+    width: 100px;
+}
+
+/*********** Link form styling END *************/
