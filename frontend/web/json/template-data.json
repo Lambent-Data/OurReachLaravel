@@ -1,0 +1,6061 @@
+[
+  {
+    "id": "preventive care",
+    "category": "Health",
+    "subcategory": {
+      "id": 0,
+      "name": "Main",
+      "sortOrder": 1
+    },
+    "name": "Preventive care for this calendar year",
+    "sortOrder": 1,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none"
+    },
+    "goals": [
+      {
+        "name": "Schedule annual physical",
+        "type": "one-time"
+      },
+      {
+        "name": "Have annual physical",
+        "type": "one-time"
+      },
+      {
+        "name": "Schedule dentist visit",
+        "type": "one-time"
+      },
+      {
+        "name": "Go to dentist",
+        "type": "one-time"
+      },
+      {
+        "name": "Enroll in a stop smoking program",
+        "type": "one-time"
+      },
+      {
+        "name": "Schedule mammogram",
+        "type": "one-time"
+      },
+      {
+        "name": "Have mammogram",
+        "type": "one-time"
+      },
+      {
+        "name": "Discuss contraceptive options with OB",
+        "type": "one-time"
+      },
+      {
+        "name": "Take contraceptive",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200
+        ]
+      },
+      {
+        "name": "Choose not to smoke today",
+        "type": "daily"
+      }
+    ]
+  },
+  {
+    "id": "HbA1c",
+    "category": "Health",
+    "subcategory": {
+      "id": 0,
+      "name": "Main",
+      "sortOrder": 1
+    },
+    "name": "Reach target HbA1c level",
+    "sortOrder": 2,
+    "links": [
+      {
+        "url": "ourreach/index.php?module=ext/ipages/view&id=93",
+        "name": "Diabetes"
+      }
+    ],
+    "measures": {
+      "type": "freeform",
+      "startLabel": "What is your current HbA1c level?",
+      "endLabel": "What is your HbA1c goal?",
+      "unit": "%",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Ask family and friend(s) to support healthy food choices",
+        "type": "one-time"
+      },
+      {
+        "name": "Sign up for nutrition plan",
+        "type": "one-time"
+      },
+      {
+        "name": "Sign up for exercise plan",
+        "type": "one-time"
+      },
+      {
+        "name": "Research places to buy discounted fruits and vegetables",
+        "type": "one-time"
+      },
+      {
+        "name": "Talk with family or friend(s) about diabetes",
+        "type": "one-time"
+      },
+      {
+        "name": "Attend diabetes support group",
+        "type": "one-time"
+      },
+      {
+        "name": "Schedule an eye exam",
+        "type": "one-time"
+      },
+      {
+        "name": "Walk/Exercise for 30 minutes",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200
+        ]
+      },
+      {
+        "name": "Drink less alcohol",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200
+        ]
+      },
+      {
+        "name": "Sleep at least 6 hours tonight",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200
+        ]
+      },
+      {
+        "name": "Take prescribed medication",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200,
+          86400
+        ]
+      },
+      {
+        "name": "Drink 6 glasses of water",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200
+        ]
+      },
+      {
+        "name": "Eat 6 servings of fruits/vegetables",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200
+        ]
+      },
+      {
+        "name": "Write in my gratitude journal",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200
+        ]
+      },
+      {
+        "name": "Meditate/Do deep breathing",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200
+        ]
+      },
+      {
+        "name": "Check blood sugar levels according to doctor",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200
+        ]
+      },
+      {
+        "name": "Check feet daily",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200
+        ]
+      },
+      {
+        "name": "Plan 5 healthy recipies to cook this week",
+        "type": "weekly",
+        "days": {
+          "sun": [
+            43200
+          ]
+        }
+      },
+      {
+        "name": "Make weekly shopping list for healthy meals",
+        "type": "weekly",
+        "days": {
+          "sun": [
+            43200
+          ]
+        }
+      },
+      {
+        "name": "Go grocery shopping",
+        "type": "weekly",
+        "days": {
+          "sun": [
+            43200
+          ]
+        }
+      },
+      {
+        "name": "Do monthly weigh-in",
+        "type": "monthly",
+        "days": [
+          28
+        ]
+      }
+    ]
+  },
+  {
+    "id": "blood sugar",
+    "category": "Health",
+    "subcategory": {
+      "id": 0,
+      "name": "Main",
+      "sortOrder": 1
+    },
+    "name": "Reach target blood sugar level",
+    "sortOrder": 3,
+    "links": [
+      {
+        "url": "ourreach/index.php?module=ext/ipages/view&id=93",
+        "name": "Diabetes"
+      }
+    ],
+    "measures": {
+      "type": "freeform",
+      "startLabel": "What is your current blood sugar level?",
+      "endLabel": "What is your blood sugar goal?",
+      "unit": "mg/dL",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Ask family and friend(s) to support healthy food choices",
+        "type": "one-time"
+      },
+      {
+        "name": "Sign up for nutition plan",
+        "type": "one-time"
+      },
+      {
+        "name": "Sign up for exercise plan",
+        "type": "one-time"
+      },
+      {
+        "name": "Talk with family or friend(s) about diabetes",
+        "type": "one-time"
+      },
+      {
+        "name": "Schedule an eye exam",
+        "type": "one-time"
+      },
+      {
+        "name": "Go to eye exam",
+        "type": "one-time"
+      },
+      {
+        "name": "Walk/Exercise for 30 minutes",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          72000
+        ]
+      },
+      {
+        "name": "Take prescribed medication",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200,
+          86400
+        ]
+      },
+      {
+        "name": "Drink less alcohol",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200
+        ]
+      },
+      {
+        "name": "Sleep at least 6 hours tonight",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200
+        ]
+      },
+      {
+        "name": "Eat 6 servings of fruits/vegetables",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200
+        ]
+      },
+      {
+        "name": "Write in my gratitude journal",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200
+        ]
+      },
+      {
+        "name": "Meditate/Do deep breathing",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200
+        ]
+      },
+      {
+        "name": "Check blood sugar levels according to doctor",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200
+        ]
+      },
+      {
+        "name": "Check feet daily",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200
+        ]
+      },
+      {
+        "name": "Plan 5 healthy recipies to cook this week",
+        "type": "weekly",
+        "days": {
+          "sun": [
+            43200
+          ]
+        }
+      },
+      {
+        "name": "Do monthly weigh-in",
+        "type": "monthly",
+        "days": [
+          28
+        ]
+      },
+      {
+        "name": "Attend diabetes support group",
+        "type": "monthly",
+        "days": [
+          28
+        ]
+      }
+    ]
+  },
+  {
+    "id": "blood pressure",
+    "category": "Health",
+    "subcategory": {
+      "id": 0,
+      "name": "Main",
+      "sortOrder": 1
+    },
+    "name": "Reach target blood pressure level",
+    "sortOrder": 4,
+    "links": [
+      {
+        "url": "ourreach/index.php?module=ext/ipages/view&id=93",
+        "name": "Diabetes"
+      }
+    ],
+    "measures": {
+      "type": "freeform",
+      "startLabel": "What is your current blood pressure level?",
+      "endLabel": "What is your blood pressure goal?",
+      "unit": "mmHg",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Ask family and friend(s) to support healthy food choices",
+        "type": "one-time"
+      },
+      {
+        "name": "Sign up for nutition plan",
+        "type": "one-time"
+      },
+      {
+        "name": "Sign up for exercise plan",
+        "type": "one-time"
+      },
+      {
+        "name": "Talk with family or friend(s) about hypertension",
+        "type": "one-time"
+      },
+      {
+        "name": "Schedule an eye exam",
+        "type": "one-time"
+      },
+      {
+        "name": "Go to eye exam",
+        "type": "one-time"
+      },
+      {
+        "name": "Walk/Exercise for 30 minutes",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          72000
+        ]
+      },
+      {
+        "name": "Take prescribed medication",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200,
+          86400
+        ]
+      },
+      {
+        "name": "Drink less alcohol",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200
+        ]
+      },
+      {
+        "name": "Sleep at least 6 hours tonight",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200
+        ]
+      },
+      {
+        "name": "Take aspirin as reccomended by doctor",
+        "type": "daily"
+      },
+      {
+        "name": "Eat 6 servings of fruits/vegetables",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200
+        ]
+      },
+      {
+        "name": "Write in my gratitude journal",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200
+        ]
+      },
+      {
+        "name": "Meditate/Do deep breathing",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200
+        ]
+      },
+      {
+        "name": "Check blood pressure levels according to doctor",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200
+        ]
+      },
+      {
+        "name": "Check feet daily",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200
+        ]
+      },
+      {
+        "name": "Plan 5 healthy recipies to cook this week",
+        "type": "weekly",
+        "days": {
+          "sun": [
+            43200
+          ]
+        }
+      },
+      {
+        "name": "Do monthly weigh-in",
+        "type": "monthly",
+        "days": [
+          28
+        ]
+      },
+      {
+        "name": "Attend hypertension support group",
+        "type": "monthly",
+        "days": [
+          28
+        ]
+      }
+    ]
+  },
+  {
+    "id": "weight",
+    "category": "Health",
+    "subcategory": {
+      "id": 0,
+      "name": "Main",
+      "sortOrder": 1
+    },
+    "name": "Reach target weight level",
+    "sortOrder": 5,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "freeform",
+      "startLabel": "What is your current weight?",
+      "endLabel": "What is your weight goal?",
+      "unit": "lbs",
+      "placeholderStartValue": "___",
+      "placeholderEndValue": "___"
+    },
+    "goals": [
+      {
+        "name": "Ask family and friend(s) to support healthy food choices",
+        "type": "one-time"
+      },
+      {
+        "name": "Sign up for nutition plan",
+        "type": "one-time"
+      },
+      {
+        "name": "Sign up for exercise plan",
+        "type": "one-time"
+      },
+      {
+        "name": "Walk/Exercise for 30 minutes",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          72000
+        ]
+      },
+      {
+        "name": "Take prescribed medication",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200,
+          86400
+        ]
+      },
+      {
+        "name": "Drink less alcohol",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200
+        ]
+      },
+      {
+        "name": "Look up a new healthy recipie",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200
+        ]
+      },
+      {
+        "name": "Sleep at least 6 hours tonight",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200
+        ]
+      },
+      {
+        "name": "Eat 6 servings of fruits/vegetables",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200
+        ]
+      },
+      {
+        "name": "Write in my gratitude journal",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200
+        ]
+      },
+      {
+        "name": "Meditate/Do deep breathing",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200
+        ]
+      },
+      {
+        "name": "Take a break from social media",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200
+        ]
+      },
+      {
+        "name": "Drink water instead of soda or juice",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200
+        ]
+      },
+      {
+        "name": "Eat 3 meals a day",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          28800,
+          43200,
+          64800
+        ]
+      },
+      {
+        "name": "Plan 5 healthy recipies to cook this week",
+        "type": "weekly",
+        "days": {
+          "sun": [
+            43200
+          ]
+        }
+      },
+      {
+        "name": "Do monthly weigh-in",
+        "type": "monthly",
+        "days": [
+          28
+        ]
+      }
+    ]
+  },
+  {
+    "id": "BMI",
+    "category": "Health",
+    "subcategory": {
+      "id": 0,
+      "name": "Main",
+      "sortOrder": 1
+    },
+    "name": "Reach target BMI",
+    "sortOrder": 6,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "freeform",
+      "startLabel": "What is your current BMI?",
+      "endLabel": "What is your BMI goal?",
+      "unit": "",
+      "placeholderStartValue": "___",
+      "placeholderEndValue": "___"
+    },
+    "goals": [
+      {
+        "name": "Ask family and friend(s) to support healthy food choices",
+        "type": "one-time"
+      },
+      {
+        "name": "Sign up for nutition plan",
+        "type": "one-time"
+      },
+      {
+        "name": "Sign up for exercise plan",
+        "type": "one-time"
+      },
+      {
+        "name": "Walk/Exercise for 30 minutes",
+        "type": "daily"
+      },
+      {
+        "name": "Take prescribed medication",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          43200,
+          86400
+        ]
+      },
+      {
+        "name": "Drink less alcohol",
+        "type": "daily"
+      },
+      {
+        "name": "Look up a new healthy recipie",
+        "type": "daily"
+      },
+      {
+        "name": "Sleep at least 6 hours tonight",
+        "type": "daily"
+      },
+      {
+        "name": "Eat 6 servings of fruits/vegetables",
+        "type": "daily"
+      },
+      {
+        "name": "Write in my gratitude journal",
+        "type": "daily"
+      },
+      {
+        "name": "Meditate/Do deep breathing",
+        "type": "daily"
+      },
+      {
+        "name": "Take a break from social media",
+        "type": "daily"
+      },
+      {
+        "name": "Drink water instead of soda or juice",
+        "type": "daily"
+      },
+      {
+        "name": "Eat 3 meals a day",
+        "type": "daily",
+        "frequency": 1,
+        "times": [
+          28800,
+          43200,
+          64800
+        ]
+      },
+      {
+        "name": "Plan 5 healthy recipies to cook this week",
+        "type": "weekly",
+        "days": {
+          "sun": [
+            43200
+          ]
+        }
+      },
+      {
+        "name": "Do monthly weigh-in",
+        "type": "monthly",
+        "days": [
+          28
+        ]
+      }
+    ]
+  },
+  {
+    "id": "peace",
+    "category": "Health",
+    "subcategory": {
+      "id": 1,
+      "name": "Mental Health",
+      "sortOrder": 2
+    },
+    "name": "Reach desired level of day-to-day peacefulness",
+    "sortOrder": 1,
+    "links": [
+      {
+        "url": "ourreach/index.php?module=ext/ipages/view&id=22",
+        "name": "Mental Health"
+      }
+    ],
+    "measures": {
+      "type": "dropdown",
+      "startLabel": "What is your current peace level?",
+      "endLabel": "What is your target peace level?",
+      "startOptions": [
+        "1 (low)",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10 (high)"
+      ],
+      "defaultStart": "Select Peace Level (1 is low, 10 is high)",
+      "defaultEnd": "Select Peace Level (1 is low, 10 is high)"
+    },
+    "goals": [
+      {
+        "name": "Find therapist or psychiatrist covered by health insurance",
+        "type": "one-time"
+      },
+      {
+        "name": "Ask family or friends to support mental health choices",
+        "type": "one-time"
+      },
+      {
+        "name": "Set screen time limit for scoail media",
+        "type": "one-time"
+      },
+      {
+        "name": "Write in gratitude journal",
+        "type": "daily"
+      },
+      {
+        "name": "Meditate/Do deep breathing for at least 60 seconds",
+        "type": "daily"
+      },
+      {
+        "name": "Pray",
+        "type": "daily"
+      },
+      {
+        "name": "Take a break from social media",
+        "type": "daily"
+      },
+      {
+        "name": "Take prescribed mental health medication",
+        "type": "daily"
+      },
+      {
+        "name": "Go for a walk",
+        "type": "daily"
+      },
+      {
+        "name": "Talk with a friend or family member about challenges and/or joys",
+        "type": "weekly"
+      },
+      {
+        "name": "Practice handling a stressful situation (such as an upcoming difficult conversation)",
+        "type": "weekly"
+      },
+      {
+        "name": "Go to one-on-one therapy session",
+        "type": "weekly"
+      },
+      {
+        "name": "Go to family/couples therapy session",
+        "type": "weekly"
+      },
+      {
+        "name": "Read the Bible",
+        "type": "weekly"
+      },
+      {
+        "name": "Read a chapter of a book by my favourite author",
+        "type": "weekly"
+      },
+      {
+        "name": "Participate in faith congregation services",
+        "type": "weekly"
+      },
+      {
+        "name": "Listen to inspiring music",
+        "type": "weekly"
+      },
+      {
+        "name": "Listen to worship music",
+        "type": "weekly"
+      },
+      {
+        "name": "Attend group support meetings",
+        "type": "monthly"
+      }
+    ]
+  },
+  {
+    "id": "faith shelter",
+    "category": "Housing",
+    "subcategory": {
+      "id": 0,
+      "name": "Emergency Shelter",
+      "sortOrder": 1
+    },
+    "name": "Move to shelter through faith congregation",
+    "sortOrder": 1,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "dropdown",
+      "startLabel": "What is your living situation now?",
+      "endLabel": "What living situation are you aiming for?",
+      "startOptions": [
+        "Living on street",
+        "Traditional shelter",
+        "Volunteer group shelter",
+        "Faith congregation"
+      ],
+      "defaultStart": "Living on street",
+      "defaultEnd": "Faith Congregation"
+    },
+    "goals": [
+      {
+        "name": "Gather my belongings to take to the shelter",
+        "type": "one-time"
+      },
+      {
+        "name": "Calculate housing budget",
+        "type": "one-time"
+      },
+      {
+        "name": "Check Provider's Corner for emergency housing options",
+        "type": "one-time"
+      },
+      {
+        "name": "Research and locate appriopriate shelter",
+        "type": "one-time"
+      },
+      {
+        "name": "Join Facebook housing groups",
+        "type": "one-time"
+      },
+      {
+        "name": "Ask church leaders for support and guidance",
+        "type": "one-time"
+      },
+      {
+        "name": "Call a local help hotline",
+        "type": "one-time"
+      },
+      {
+        "name": "Tell friends and family where I am",
+        "type": "daily"
+      },
+      {
+        "name": "Make a daily account of all my belongings",
+        "type": "daily"
+      },
+      {
+        "name": "Visit a local food bank",
+        "type": "weekly"
+      },
+      {
+        "name": "Call friends and family",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "volunteer shelter",
+    "category": "Housing",
+    "subcategory": {
+      "id": 0,
+      "name": "Emergency Shelter",
+      "sortOrder": 1
+    },
+    "name": "Move to shelter through other volunteer group",
+    "sortOrder": 2,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "dropdown",
+      "startLabel": "What is your living situation now?",
+      "endLabel": "What living situation are you aiming for?",
+      "startOptions": [
+        "Living on street",
+        "Traditional shelter",
+        "Volunteer group shelter",
+        "Faith congregation"
+      ],
+      "defaultStart": "Living on street",
+      "defaultEnd": "Volunteer group shelter"
+    },
+    "goals": [
+      {
+        "name": "Gather my belongings to take to the shelter",
+        "type": "one-time"
+      },
+      {
+        "name": "Calculate housing budget",
+        "type": "one-time"
+      },
+      {
+        "name": "Research and locate appriopriate shelter",
+        "type": "one-time"
+      },
+      {
+        "name": "Join Facebook housing groups",
+        "type": "one-time"
+      },
+      {
+        "name": "Call a local help hotline",
+        "type": "one-time"
+      },
+      {
+        "name": "Tell friends and family where I am",
+        "type": "daily"
+      },
+      {
+        "name": "Make a daily account of all my belongings",
+        "type": "daily"
+      },
+      {
+        "name": "Visit a local food bank",
+        "type": "weekly"
+      },
+      {
+        "name": "Call friends and family",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "traditional shelter",
+    "category": "Housing",
+    "subcategory": {
+      "id": 0,
+      "name": "Emergency Shelter",
+      "sortOrder": 1
+    },
+    "name": "Move to traditional shelter",
+    "sortOrder": 3,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "dropdown",
+      "startLabel": "What is your living situation now?",
+      "endLabel": "What living situation are you aiming for?",
+      "startOptions": [
+        "Living on street",
+        "Traditional shelter",
+        "Volunteer group shelter",
+        "Faith congregation"
+      ],
+      "defaultStart": "Living on street",
+      "defaultEnd": "Traditional shelter"
+    },
+    "goals": [
+      {
+        "name": "Gather my belongings to take to the shelter",
+        "type": "one-time"
+      },
+      {
+        "name": "Calculate housing budget",
+        "type": "one-time"
+      },
+      {
+        "name": "Research and locate appriopriate shelter",
+        "type": "one-time"
+      },
+      {
+        "name": "Join Facebook housing groups",
+        "type": "one-time"
+      },
+      {
+        "name": "Visit traditional shelter",
+        "type": "one-time"
+      },
+      {
+        "name": "Call a local help hotline",
+        "type": "one-time"
+      },
+      {
+        "name": "Make a daily account of all my belongings",
+        "type": "daily"
+      },
+      {
+        "name": "Visit a local food bank",
+        "type": "weekly"
+      },
+      {
+        "name": "Call friends and family",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "rapid rehousing",
+    "category": "Housing",
+    "subcategory": {
+      "id": 0,
+      "name": "Emergency Shelter",
+      "sortOrder": 1
+    },
+    "name": "Move to home through 'rapid rehousing' program",
+    "sortOrder": 4,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "dropdown",
+      "startLabel": "What is your living situation now?",
+      "endLabel": "What living situation are you aiming for?",
+      "startOptions": [
+        "Living on street",
+        "Traditional shelter",
+        "Volunteer group shelter",
+        "Faith congregation",
+        "Rapid Rehousing program"
+      ],
+      "defaultStart": "Living on street",
+      "defaultEnd": "Rapid Rehousing program"
+    },
+    "goals": [
+      {
+        "name": "Research local 'Rapid Rehousing' programs",
+        "type": "one-time"
+      },
+      {
+        "name": "Calculate housing budget",
+        "type": "one-time"
+      },
+      {
+        "name": "Visit a 'Rapid Rehousing' program office",
+        "type": "one-time"
+      },
+      {
+        "name": "Determine fees/costs of different programs",
+        "type": "one-time"
+      },
+      {
+        "name": "Ask 'Rapid Rehousing' program staff for support and guidance",
+        "type": "one-time"
+      },
+      {
+        "name": "Apply for 'Rapid Rehousing'",
+        "type": "one-time"
+      }
+    ]
+  },
+  {
+    "id": "transitional housing",
+    "category": "Housing",
+    "subcategory": {
+      "id": 1,
+      "name": "Transitional Housing",
+      "sortOrder": 2
+    },
+    "name": "Move to transitional housing",
+    "sortOrder": 1,
+    "links": [
+      {
+        "url": "ourreach/index.php?module=ext/ipages/view&id=24",
+        "name": "Emergency Shelter-Transitional Housing"
+      }
+    ],
+    "measures": {
+      "type": "dropdown",
+      "startLabel": "What is your living situation now?",
+      "endLabel": "What living situation are you aiming for?",
+      "startOptions": [
+        "Living on street",
+        "Traditional shelter",
+        "Volunteer group shelter",
+        "Faith congregation",
+        "Transitional housing"
+      ],
+      "defaultStart": "Living on street",
+      "defaultEnd": "Transitional housing"
+    },
+    "goals": [
+      {
+        "name": "Research local 'Transitional housing' programs",
+        "type": "one-time"
+      },
+      {
+        "name": "Calculate housing budget",
+        "type": "one-time"
+      },
+      {
+        "name": "Visit a 'transitional housing' program office",
+        "type": "one-time"
+      },
+      {
+        "name": "Determine fees/costs of different programs",
+        "type": "one-time"
+      },
+      {
+        "name": "Ask 'transitional housing' program staff for support and guidance",
+        "type": "one-time"
+      },
+      {
+        "name": "Apply for 'Transitional housing'",
+        "type": "one-time"
+      }
+    ]
+  },
+  {
+    "id": "rental assistance",
+    "category": "Housing",
+    "subcategory": {
+      "id": 2,
+      "name": "Stay in current home",
+      "sortOrder": 3
+    },
+    "name": "Recieve rental assistance",
+    "sortOrder": 1,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "freeform",
+      "startLabel": "How much rental assistance do you currently recieve?",
+      "endLabel": "How much rental assistance do you need?",
+      "unit": "$",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Calculate housing budget",
+        "type": "one-time"
+      },
+      {
+        "name": "Look up local, state, and federal resources",
+        "type": "one-time"
+      },
+      {
+        "name": "Apply for voucher programs",
+        "type": "one-time"
+      },
+      {
+        "name": "Contact public housing agency",
+        "type": "one-time"
+      },
+      {
+        "name": "Contact a housing counseling center",
+        "type": "one-time"
+      },
+      {
+        "name": "Get income verification (pay stubs or other pay verificationm such as last year's tax returns, a latter from employer, invoices, etc)",
+        "type": "one-time"
+      },
+      {
+        "name": "Get proof of hardship (copies of medical bills, etc)",
+        "type": "one-time"
+      },
+      {
+        "name": "Gather materials needed to apply for rental assistance",
+        "type": "one-time"
+      },
+      {
+        "name": "Research local congregations and other organizations who could help with rental payments",
+        "type": "one-time"
+      },
+      {
+        "name": "Attend community meeting on housing issues",
+        "type": "one-time"
+      }
+    ]
+  },
+  {
+    "id": "mediate rent",
+    "category": "Housing",
+    "subcategory": {
+      "id": 2,
+      "name": "Stay in current home",
+      "sortOrder": 3
+    },
+    "name": "Mediate rent with landlord",
+    "sortOrder": 2,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "$",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Calculate housing budget",
+        "type": "one-time"
+      },
+      {
+        "name": "Contact a tenant's rights group",
+        "type": "one-time"
+      },
+      {
+        "name": "Arrange for lead paint test - may be important to share with tenant's rights group",
+        "type": "one-time"
+      },
+      {
+        "name": "Find a local mediation service",
+        "type": "one-time"
+      },
+      {
+        "name": "Get income verification (pay stubs or other pay verificationm such as last year's tax returns, a latter from employer, invoices, etc)",
+        "type": "one-time"
+      },
+      {
+        "name": "Get proof of hardship (copies of medical bills, etc)",
+        "type": "one-time"
+      },
+      {
+        "name": "Attend community meeting on housing issues",
+        "type": "one-time"
+      },
+      {
+        "name": "Gather materials needed to engage in landlord mediation",
+        "type": "one-time"
+      }
+    ]
+  },
+  {
+    "id": "mortgage assistance",
+    "category": "Housing",
+    "subcategory": {
+      "id": 2,
+      "name": "Stay in current home",
+      "sortOrder": 3
+    },
+    "name": "Recieve mortgage assistance",
+    "sortOrder": 3,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "$",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Make appointment with bank",
+        "type": "one-time"
+      },
+      {
+        "name": "Contact a housing counselor approved by the US Department of Housing",
+        "type": "one-time"
+      },
+      {
+        "name": "Contact lender to discuss difficulty making payments",
+        "type": "one-time"
+      },
+      {
+        "name": "Review budget",
+        "type": "one-time"
+      },
+      {
+        "name": "Apply for federal mortgage assistance programs",
+        "type": "one-time"
+      },
+      {
+        "name": "Apply for foreclosure mediation programs",
+        "type": "one-time"
+      },
+      {
+        "name": "Research local congregations and other organizations who could help with mortgage payments",
+        "type": "one-time"
+      },
+      {
+        "name": "Get income verification (pay stubs or other pay verificationm such as last year's tax returns, a latter from employer, invoices, etc)",
+        "type": "one-time"
+      },
+      {
+        "name": "Get proof of hardship (copies of medical bills, etc)",
+        "type": "one-time"
+      },
+      {
+        "name": "Attend community meeting on housing issues",
+        "type": "one-time"
+      },
+      {
+        "name": "Study mortgage rights",
+        "type": "one-time"
+      },
+      {
+        "name": "Open and regularly respond to mail from lender",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "restructure mortgage",
+    "category": "Housing",
+    "subcategory": {
+      "id": 2,
+      "name": "Stay in current home",
+      "sortOrder": 3
+    },
+    "name": "Restructure mortgage",
+    "sortOrder": 4,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "$",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Review qualifications for mortgage resctructuring programs",
+        "type": "one-time"
+      },
+      {
+        "name": "Apply for federal restructuring programs",
+        "type": "one-time"
+      },
+      {
+        "name": "Contact lender to discuss options",
+        "type": "one-time"
+      },
+      {
+        "name": "Get income verification (pay stubs or other pay verificationm such as last year's tax returns, a latter from employer, invoices, etc)",
+        "type": "one-time"
+      },
+      {
+        "name": "Get proof of hardship (copies of medical bills, etc)",
+        "type": "one-time"
+      },
+      {
+        "name": "Attend community meeting on housing issues",
+        "type": "one-time"
+      },
+      {
+        "name": "Study mortgage rights",
+        "type": "one-time"
+      },
+      {
+        "name": "Open and regularly respond to mail from lender",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "rent home",
+    "category": "Housing",
+    "subcategory": {
+      "id": 3,
+      "name": "Permanent Housing",
+      "sortOrder": 4
+    },
+    "name": "Rent a home",
+    "sortOrder": 1,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Calculate my housing budget",
+        "type": "one-time"
+      },
+      {
+        "name": "Join Facebook housing groups",
+        "type": "one-time"
+      },
+      {
+        "name": "Ask landlord about reduced rent",
+        "type": "one-time"
+      },
+      {
+        "name": "Make appointment with rental affordable housing program",
+        "type": "one-time"
+      },
+      {
+        "name": "Visit an open house",
+        "type": "one-time"
+      },
+      {
+        "name": "Visit rental appartments/houses",
+        "type": "one-time"
+      },
+      {
+        "name": "Check how far rental is from work, school, childcare, stores, and family",
+        "type": "one-time"
+      },
+      {
+        "name": "Make appointment with bank",
+        "type": "one-time"
+      },
+      {
+        "name": "Apply to a different housing development",
+        "type": "daily"
+      },
+      {
+        "name": "Save for down payment",
+        "type": "weekly"
+      },
+      {
+        "name": "Search for rental appartments/houses online",
+        "type": "weekly"
+      },
+      {
+        "name": "Search for rental appartments/houses in the newspapers",
+        "type": "weekly"
+      },
+      {
+        "name": "Apply for an appartment",
+        "type": "weekly"
+      },
+      {
+        "name": "Respond to rental listings",
+        "type": "weekly"
+      },
+      {
+        "name": "Compare rental appartments/houses on real-estate app such as Zillow",
+        "type": "weekly"
+      },
+      {
+        "name": "Search for rental appartments/houses on Facebook Marketplace and Craigslist",
+        "type": "weekly"
+      },
+      {
+        "name": "Ask friends about rental appartment/house prices",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "buy home",
+    "category": "Housing",
+    "subcategory": {
+      "id": 3,
+      "name": "Permanent Housing",
+      "sortOrder": 4
+    },
+    "name": "Buy a home",
+    "sortOrder": 2,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Calculate my housing budget",
+        "type": "one-time"
+      },
+      {
+        "name": "Join Facebook housing groups",
+        "type": "one-time"
+      },
+      {
+        "name": "Visit an open house",
+        "type": "one-time"
+      },
+      {
+        "name": "Check my credit score",
+        "type": "one-time"
+      },
+      {
+        "name": "Make appointment with affordable housing purchase program",
+        "type": "one-time"
+      },
+      {
+        "name": "Find a real estate agent",
+        "type": "one-time"
+      },
+      {
+        "name": "Make appointment with bank",
+        "type": "one-time"
+      },
+      {
+        "name": "Check how far house is from work, school, childcare, stores, and family",
+        "type": "one-time"
+      },
+      {
+        "name": "Check for household safety hazards in desired appartment/home",
+        "type": "one-time"
+      },
+      {
+        "name": "Arrange for lead paint test in desired home",
+        "type": "one-time"
+      },
+      {
+        "name": "Arrange for house inspection",
+        "type": "one-time"
+      },
+      {
+        "name": "Attend community meeting on housing issues",
+        "type": "one-time"
+      },
+      {
+        "name": "Search online for appartments/houses for sale",
+        "type": "weekly"
+      },
+      {
+        "name": "Search in newspapers for appartments/houses for sale",
+        "type": "weekly"
+      },
+      {
+        "name": "Respond to housing listings",
+        "type": "weekly"
+      },
+      {
+        "name": "Ask friends about appartment/house prices",
+        "type": "weekly"
+      },
+      {
+        "name": "Compare appartments/houses on real-estate app",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "supportive hosuing",
+    "category": "Housing",
+    "subcategory": {
+      "id": 3,
+      "name": "Permanent Housing",
+      "sortOrder": 4
+    },
+    "name": "Find permanent supportive housing",
+    "sortOrder": 3,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Research local 'supportive housing' programs",
+        "type": "one-time"
+      },
+      {
+        "name": "Calculate my housing budget",
+        "type": "one-time"
+      },
+      {
+        "name": "Visit a 'supportive hosuing' program office",
+        "type": "one-time"
+      },
+      {
+        "name": "Determine fees/costs of different programs",
+        "type": "one-time"
+      },
+      {
+        "name": "Ask 'supportive housing' program staff for support and guidance",
+        "type": "one-time"
+      },
+      {
+        "name": "Apply for 'supportive housing'",
+        "type": "one-time"
+      },
+      {
+        "name": "Attend community meeting on 'supportive housing'",
+        "type": "one-time"
+      }
+    ]
+  },
+  {
+    "id": "deliver baby",
+    "category": "Children",
+    "subcategory": {
+      "id": 0,
+      "name": "Prenatal Specific",
+      "sortOrder": 1
+    },
+    "name": "Deliver a healthy baby",
+    "sortOrder": 1,
+    "links": [
+      {
+        "url": "ourreach/index.php?module=ext/ipages/view&id=151",
+        "name": "Expecting a Baby"
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Talk with care provider about healthy foods",
+        "type": "one-time"
+      },
+      {
+        "name": "Ask family or friend to support healthy food choices",
+        "type": "one-time"
+      },
+      {
+        "name": "Enroll in a 'stop smoking' plan for pregnancy",
+        "type": "one-time"
+      },
+      {
+        "name": "Make sure I am up to date on immunizations",
+        "type": "one-time"
+      },
+      {
+        "name": "Ask doctor about how current prescription medications may affect the baby",
+        "type": "one-time"
+      },
+      {
+        "name": "Tour the hospital and delivery ward",
+        "type": "one-time"
+      },
+      {
+        "name": "Complete prenantal genetic testing",
+        "type": "one-time"
+      },
+      {
+        "name": "Learn about family health history with partner",
+        "type": "one-time"
+      },
+      {
+        "name": "Schedule self-care",
+        "type": "one-time"
+      },
+      {
+        "name": "Research signs of labor, to know when to call OB / go to hospital",
+        "type": "one-time"
+      },
+      {
+        "name": "Register for childbirth class",
+        "type": "one-time"
+      },
+      {
+        "name": "Register for breastfeeding class",
+        "type": "one-time"
+      },
+      {
+        "name": "Register for prenatal exercise class (such as yoga)",
+        "type": "one-time"
+      },
+      {
+        "name": "Write up my birth plan",
+        "type": "one-time"
+      },
+      {
+        "name": "Choose pediatrician to visit baby in hospital",
+        "type": "one-time"
+      },
+      {
+        "name": "Eliminate alcohol & other unprescribed drugs",
+        "type": "daily"
+      },
+      {
+        "name": "Practice deep breathing",
+        "type": "daily"
+      },
+      {
+        "name": "Read at least 15 minutes of pregnancy book",
+        "type": "daily"
+      },
+      {
+        "name": "How am I feeling today? Call the doctor if I think what I am feeling isn't normal",
+        "type": "daily"
+      },
+      {
+        "name": "Follow 'stop smoking' plan",
+        "type": "daily"
+      },
+      {
+        "name": "Sing to unborn baby",
+        "type": "daily"
+      },
+      {
+        "name": "Talk to unborn baby",
+        "type": "daily"
+      },
+      {
+        "name": "Make time for nourishing friendships",
+        "type": "weekly"
+      },
+      {
+        "name": "Go to prenatal medical appointments",
+        "type": "weekly"
+      },
+      {
+        "name": "Go to prenatal exercise classes (such as yoga)",
+        "type": "weekly"
+      },
+      {
+        "name": "Go to breastfeeding classes",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "prepare home",
+    "category": "Children",
+    "subcategory": {
+      "id": 0,
+      "name": "Prenatal Specific",
+      "sortOrder": 1
+    },
+    "name": "Prepare for baby coming home",
+    "sortOrder": 2,
+    "links": [
+      {
+        "url": "ourreach/index.php?module=ext/ipages/view&id=169",
+        "name": "Preparing Home for Safe Sleep"
+      },
+      {
+        "url": "ourreach/index.php?module=ext/ipages/view&id=170",
+        "name": "Preparing Home for Other Safety"
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Baby-proof house/apartment",
+        "type": "one-time"
+      },
+      {
+        "name": "Arrange for lead paint test",
+        "type": "one-time"
+      },
+      {
+        "name": "Prepare a safe sleep area for baby",
+        "type": "one-time"
+      },
+      {
+        "name": "Set up changing supplies",
+        "type": "one-time"
+      },
+      {
+        "name": "Wash, fold, and hang baby supplies",
+        "type": "one-time"
+      },
+      {
+        "name": "Set up area for baby's items",
+        "type": "one-time"
+      },
+      {
+        "name": "Prepare meals and put them in a freezer",
+        "type": "one-time"
+      },
+      {
+        "name": "Research resources for safe baby items that are free/discounted",
+        "type": "one-time"
+      },
+      {
+        "name": "Register all new baby items for recalls",
+        "type": "one-time"
+      },
+      {
+        "name": "Research breast pumps covered by insurance",
+        "type": "one-time"
+      },
+      {
+        "name": "Plan how to travel to pediatrician for baby's first visit 2 days after discharge from hospital",
+        "type": "one-time"
+      },
+      {
+        "name": "Get car seat if baby will be travelling in a car from hospital (even taxi)",
+        "type": "one-time"
+      },
+      {
+        "name": "Install car seat in car in which baby will be travelling from hospital",
+        "type": "one-time"
+      },
+      {
+        "name": "Read at least 15 minutes about child development",
+        "type": "daily"
+      }
+    ]
+  },
+  {
+    "id": "raise child",
+    "category": "Children",
+    "subcategory": {
+      "id": 1,
+      "name": "From Birth Onward",
+      "sortOrder": 2
+    },
+    "name": "Raise a happy & healthy child",
+    "sortOrder": 1,
+    "links": [
+      {
+        "url": "ourreach/index.php?module=ext/ipages/view&id=150",
+        "name": "After Baby's Born"
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Research support meetings for parents",
+        "type": "one-time"
+      },
+      {
+        "name": "Talk about family rules with my kids",
+        "type": "one-time"
+      },
+      {
+        "name": "Attend parent/guardian group meeting at school",
+        "type": "one-time"
+      },
+      {
+        "name": "Check library programs for ages of my kids",
+        "type": "one-time"
+      },
+      {
+        "name": "Check online resources for at-home learning",
+        "type": "one-time"
+      },
+      {
+        "name": "Have a family game/movie night",
+        "type": "one-time"
+      },
+      {
+        "name": "Establish a bedtime routine (e.g., skin care, song, book, then bed)",
+        "type": "one-time"
+      },
+      {
+        "name": "Read for 20 minutes with children",
+        "type": "daily"
+      },
+      {
+        "name": "Play one-on-one for 30 minutes",
+        "type": "daily"
+      },
+      {
+        "name": "Exercise together for 20 minutes",
+        "type": "daily"
+      },
+      {
+        "name": "Have dinner as a family",
+        "type": "daily"
+      },
+      {
+        "name": "Pray as a family",
+        "type": "daily"
+      },
+      {
+        "name": "Help my child/ren with homework",
+        "type": "daily"
+      },
+      {
+        "name": "Talk to my child about all that's going on, to build language",
+        "type": "daily"
+      },
+      {
+        "name": "Keep the TV turned off while my baby is around",
+        "type": "daily"
+      },
+      {
+        "name": "Limit screen time (less than 1 hour for children and none for babies under 2)",
+        "type": "daily"
+      },
+      {
+        "name": "Tummy time for babies after each feeding",
+        "type": "daily"
+      },
+      {
+        "name": "Play stacking/building games",
+        "type": "weekly"
+      },
+      {
+        "name": "Play singing/clapping games",
+        "type": "weekly"
+      },
+      {
+        "name": "Have my child/ren help in household tasks",
+        "type": "weekly"
+      },
+      {
+        "name": "Do arts and crafts with child/ren",
+        "type": "weekly"
+      },
+      {
+        "name": "Do storytelling with child/ren",
+        "type": "weekly"
+      },
+      {
+        "name": "Safely visit a park",
+        "type": "weekly"
+      },
+      {
+        "name": "Go to support meeting for parents",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "raise newborn",
+    "category": "Children",
+    "subcategory": {
+      "id": 1,
+      "name": "From Birth Onward",
+      "sortOrder": 2
+    },
+    "name": "Raise a happy & healthy newborn (0-2 months)",
+    "sortOrder": 2,
+    "links": [
+      {
+        "url": "ourreach/index.php?module=ext/ipages/view&id=150",
+        "name": "After Baby's Born"
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Discuss with care provider whether family & friends will be allowed to visit",
+        "type": "one-time"
+      },
+      {
+        "name": "Talk with familly & friends about whether they will be allowed to visit",
+        "type": "one-time"
+      },
+      {
+        "name": "Make an appointment with a lactation (breastfeeding) consultant",
+        "type": "one-time"
+      },
+      {
+        "name": "Make sure pediatrician visits baby in hospital or birth center",
+        "type": "one-time"
+      },
+      {
+        "name": "Go to pediatrician appointment less than 2 days after hospital/birth center discharge",
+        "type": "one-time"
+      },
+      {
+        "name": "Go to 1 month pediatrician appointment",
+        "type": "one-time"
+      },
+      {
+        "name": "Go to 2 month pediatrician appointment",
+        "type": "one-time"
+      },
+      {
+        "name": "Make sure baby's sleeping area is safe",
+        "type": "one-time"
+      },
+      {
+        "name": "Research breastfeeding support group",
+        "type": "one-time"
+      },
+      {
+        "name": "Research parent support group",
+        "type": "one-time"
+      },
+      {
+        "name": "Research tongue ties in babies",
+        "type": "one-time"
+      },
+      {
+        "name": "Track wet/dry diapers",
+        "type": "daily"
+      },
+      {
+        "name": "Check if baby is jaundiced",
+        "type": "daily"
+      },
+      {
+        "name": "Feed baby every 3 hours or more frequently if needed",
+        "type": "daily"
+      },
+      {
+        "name": "Tummy time after each feeding (including baby sleeping on awake mom's chest",
+        "type": "daily"
+      },
+      {
+        "name": "Check for safe sleeping every time baby sleeps",
+        "type": "daily"
+      },
+      {
+        "name": "Do proper umbillical chord care",
+        "type": "daily"
+      },
+      {
+        "name": "Read a book with my baby",
+        "type": "daily"
+      },
+      {
+        "name": "Talk with my baby",
+        "type": "daily"
+      },
+      {
+        "name": "Read for 15 minutes about infant development",
+        "type": "daily"
+      },
+      {
+        "name": "Play finger games with my baby",
+        "type": "weekly"
+      },
+      {
+        "name": "Play singing games with my baby",
+        "type": "weekly"
+      },
+      {
+        "name": "Go to lactation (breastfeeding) consultant appointment",
+        "type": "weekly"
+      },
+      {
+        "name": "Go to breastfeeding support group",
+        "type": "weekly"
+      },
+      {
+        "name": "Go to parent support group",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "three months",
+    "category": "Children",
+    "subcategory": {
+      "id": 1,
+      "name": "From Birth Onward",
+      "sortOrder": 2
+    },
+    "name": "Be healthy in the three-plus months after giving birth",
+    "sortOrder": 3,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Research 'post-birth' warning signs of blod clots, severe headache, etc. to call OB or go to ER",
+        "type": "one-time"
+      },
+      {
+        "name": "Make appointment with a lactation (breastfeeding) consultant",
+        "type": "one-time"
+      },
+      {
+        "name": "Go to six week post-partum appointment",
+        "type": "one-time"
+      },
+      {
+        "name": "Complete post-partum mental health screening",
+        "type": "one-time"
+      },
+      {
+        "name": "Learn about shaken baby syndrome",
+        "type": "one-time"
+      },
+      {
+        "name": "Discuss with OB about returning to contraceptive",
+        "type": "one-time"
+      },
+      {
+        "name": "Research breastfeeding support group",
+        "type": "one-time"
+      },
+      {
+        "name": "Research parent support group",
+        "type": "one-time"
+      },
+      {
+        "name": "Continue to take prenatal vitamin",
+        "type": "daily"
+      },
+      {
+        "name": "Monitor blood pressure",
+        "type": "daily"
+      },
+      {
+        "name": "Take prescribed medications for blood pressure",
+        "type": "daily"
+      },
+      {
+        "name": "Monitor for 'post-birth' warning signs of blod clots, severe headache, etc. to call OB or go to ER",
+        "type": "daily"
+      },
+      {
+        "name": "Drink 128 ounces of water per day",
+        "type": "daily"
+      },
+      {
+        "name": "Reach out to family/friend(s) for support",
+        "type": "weekly"
+      },
+      {
+        "name": "Tell a friend when/if I'm having trouble with anxiety or depression",
+        "type": "weekly"
+      },
+      {
+        "name": "Go to lactation (breastfeeding) consultant",
+        "type": "weekly"
+      },
+      {
+        "name": "Go to breastfeeding support group",
+        "type": "weekly"
+      },
+      {
+        "name": "Go to parent support group",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "pediatrician 0-6 months",
+    "category": "Children",
+    "subcategory": {
+      "id": 2,
+      "name": "Pediatrician well visits and vaccinations",
+      "sortOrder": 3
+    },
+    "name": "Pediatrician well visits and vaccinations (0-6 months)",
+    "sortOrder": 1,
+    "links": [
+      {
+        "url": "ourreach/index.php?module=ext/ipages/view&id=173",
+        "name": "Vaccines Birth-6 years"
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Schedule pediatrician well visits",
+        "type": "one-time"
+      },
+      {
+        "name": "Schedule vaccination(s)",
+        "type": "one-time"
+      },
+      {
+        "name": "Go to pediatrician well visit",
+        "type": "one-time"
+      },
+      {
+        "name": "Have child vaccinated",
+        "type": "one-time"
+      }
+    ]
+  },
+  {
+    "id": "pediatrician 7-18 months",
+    "category": "Children",
+    "subcategory": {
+      "id": 2,
+      "name": "Pediatrician well visits and vaccinations",
+      "sortOrder": 3
+    },
+    "name": "Pediatrician well visits and vaccinations (7-18 months)",
+    "sortOrder": 2,
+    "links": [
+      {
+        "url": "ourreach/index.php?module=ext/ipages/view&id=173",
+        "name": "Vaccines Birth-6 years"
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Schedule pediatrician well visits",
+        "type": "one-time"
+      },
+      {
+        "name": "Schedule vaccination(s)",
+        "type": "one-time"
+      },
+      {
+        "name": "Go to pediatrician well visit",
+        "type": "one-time"
+      },
+      {
+        "name": "Have child vaccinated",
+        "type": "one-time"
+      }
+    ]
+  },
+  {
+    "id": "pediatrician 19 months - 3 years",
+    "category": "Children",
+    "subcategory": {
+      "id": 2,
+      "name": "Pediatrician well visits and vaccinations",
+      "sortOrder": 3
+    },
+    "name": "Pediatrician well visits and vaccinations (19 months - 3 years)",
+    "sortOrder": 3,
+    "links": [
+      {
+        "url": "ourreach/index.php?module=ext/ipages/view&id=173",
+        "name": "Vaccines Birth-6 years"
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Schedule pediatrician well visits",
+        "type": "one-time"
+      },
+      {
+        "name": "Schedule vaccination(s)",
+        "type": "one-time"
+      },
+      {
+        "name": "Go to pediatrician well visit",
+        "type": "one-time"
+      },
+      {
+        "name": "Have child vaccinated",
+        "type": "one-time"
+      }
+    ]
+  },
+  {
+    "id": "pediatrician 4-6 years",
+    "category": "Children",
+    "subcategory": {
+      "id": 2,
+      "name": "Pediatrician well visits and vaccinations",
+      "sortOrder": 3
+    },
+    "name": "Pediatrician well visits and vaccinations (4-6 years)",
+    "sortOrder": 4,
+    "links": [
+      {
+        "url": "ourreach/index.php?module=ext/ipages/view&id=173",
+        "name": "Vaccines Birth-6 years"
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Schedule pediatrician well visits",
+        "type": "one-time"
+      },
+      {
+        "name": "Schedule vaccination(s)",
+        "type": "one-time"
+      },
+      {
+        "name": "Go to pediatrician well visit",
+        "type": "one-time"
+      },
+      {
+        "name": "Have child vaccinated",
+        "type": "one-time"
+      }
+    ]
+  },
+  {
+    "id": "pediatrician 7-10 years",
+    "category": "Children",
+    "subcategory": {
+      "id": 2,
+      "name": "Pediatrician well visits and vaccinations",
+      "sortOrder": 3
+    },
+    "name": "Pediatrician well visits and vaccinations (7-10 years)",
+    "sortOrder": 5,
+    "links": [
+      {
+        "url": "ourreach/index.php?module=ext/ipages/view&id=96",
+        "name": "Vaccines"
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Schedule pediatrician well visits",
+        "type": "one-time"
+      },
+      {
+        "name": "Schedule vaccination(s)",
+        "type": "one-time"
+      },
+      {
+        "name": "Go to pediatrician well visit",
+        "type": "one-time"
+      },
+      {
+        "name": "Have child vaccinated",
+        "type": "one-time"
+      }
+    ]
+  },
+  {
+    "id": "pediatrician 11-14 years",
+    "category": "Children",
+    "subcategory": {
+      "id": 2,
+      "name": "Pediatrician well visits and vaccinations",
+      "sortOrder": 3
+    },
+    "name": "Pediatrician well visits and vaccinations (11-14 years)",
+    "sortOrder": 6,
+    "links": [
+      {
+        "url": "ourreach/index.php?module=ext/ipages/view&id=96",
+        "name": "Vaccines"
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Schedule pediatrician well visits",
+        "type": "one-time"
+      },
+      {
+        "name": "Schedule vaccination(s)",
+        "type": "one-time"
+      },
+      {
+        "name": "Go to pediatrician well visit",
+        "type": "one-time"
+      },
+      {
+        "name": "Have child vaccinated",
+        "type": "one-time"
+      }
+    ]
+  },
+  {
+    "id": "pediatrician 15-18 years",
+    "category": "Children",
+    "subcategory": {
+      "id": 2,
+      "name": "Pediatrician well visits and vaccinations",
+      "sortOrder": 3
+    },
+    "name": "Pediatrician well visits and vaccinations (15-18 years)",
+    "sortOrder": 7,
+    "links": [
+      {
+        "url": "ourreach/index.php?module=ext/ipages/view&id=96",
+        "name": "Vaccines"
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Schedule pediatrician well visits",
+        "type": "one-time"
+      },
+      {
+        "name": "Schedule vaccination(s)",
+        "type": "one-time"
+      },
+      {
+        "name": "Go to pediatrician well visit",
+        "type": "one-time"
+      },
+      {
+        "name": "Have child vaccinated",
+        "type": "one-time"
+      }
+    ]
+  },
+  {
+    "id": "dentist 4-6 years",
+    "category": "Children",
+    "subcategory": {
+      "id": 3,
+      "name": "Dentist visits",
+      "sortOrder": 4
+    },
+    "name": "Dentist visits (4-6 years)",
+    "sortOrder": 1,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Schedule two dentist visits per year per child",
+        "type": "one-time"
+      },
+      {
+        "name": "Go to child's first dentist visit for the year",
+        "type": "one-time"
+      },
+      {
+        "name": "Go to child's second dentist visit for the year",
+        "type": "one-time"
+      }
+    ]
+  },
+  {
+    "id": "dentist 7-10 years",
+    "category": "Children",
+    "subcategory": {
+      "id": 3,
+      "name": "Dentist visits",
+      "sortOrder": 4
+    },
+    "name": "Dentist visits (7-10 years)",
+    "sortOrder": 2,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Schedule two dentist visits per year per child",
+        "type": "one-time"
+      },
+      {
+        "name": "Go to child's first dentist visit for the year",
+        "type": "one-time"
+      },
+      {
+        "name": "Go to child's second dentist visit for the year",
+        "type": "one-time"
+      }
+    ]
+  },
+  {
+    "id": "dentist 11-14 years",
+    "category": "Children",
+    "subcategory": {
+      "id": 3,
+      "name": "Dentist visits",
+      "sortOrder": 4
+    },
+    "name": "Dentist visits (11-14 years)",
+    "sortOrder": 3,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Schedule two dentist visits per year per child",
+        "type": "one-time"
+      },
+      {
+        "name": "Go to child's first dentist visit for the year",
+        "type": "one-time"
+      },
+      {
+        "name": "Go to child's second dentist visit for the year",
+        "type": "one-time"
+      }
+    ]
+  },
+  {
+    "id": "dentist 15-18 years",
+    "category": "Children",
+    "subcategory": {
+      "id": 3,
+      "name": "Dentist visits",
+      "sortOrder": 4
+    },
+    "name": "Dentist visits (15-18 years)",
+    "sortOrder": 4,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Schedule two dentist visits per year per child",
+        "type": "one-time"
+      },
+      {
+        "name": "Go to child's first dentist visit for the year",
+        "type": "one-time"
+      },
+      {
+        "name": "Go to child's second dentist visit for the year",
+        "type": "one-time"
+      }
+    ]
+  },
+  {
+    "id": "close to home",
+    "category": "Jobs",
+    "subcategory": {
+      "id": 0,
+      "name": "Location",
+      "sortOrder": 1
+    },
+    "name": "Close to home",
+    "sortOrder": 1,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Update resume",
+        "type": "one-time"
+      },
+      {
+        "name": "Update cover letter",
+        "type": "one-time"
+      },
+      {
+        "name": "Prepare 5 job interview questions",
+        "type": "one-time"
+      },
+      {
+        "name": "Ask friend, family, or mentor to look over the resume and cover letter before sending it out",
+        "type": "one-time"
+      },
+      {
+        "name": "Upload resume and cover letter to job-finding sites",
+        "type": "one-time"
+      },
+      {
+        "name": "Ask friend(s) and family about job openings",
+        "type": "weekly"
+      },
+      {
+        "name": "Search online for jobs",
+        "type": "weekly"
+      },
+      {
+        "name": "Check the newspaper for jobs",
+        "type": "weekly"
+      },
+      {
+        "name": "Submit an application to 2 job listings",
+        "type": "weekly"
+      },
+      {
+        "name": "Reflect, talk to friend(s) and family",
+        "type": "weekly"
+      },
+      {
+        "name": "Prepare for job interview",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "close to school",
+    "category": "Jobs",
+    "subcategory": {
+      "id": 0,
+      "name": "Location",
+      "sortOrder": 1
+    },
+    "name": "Close to child/ren's school/s",
+    "sortOrder": 2,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Update resume",
+        "type": "one-time"
+      },
+      {
+        "name": "Update cover letter",
+        "type": "one-time"
+      },
+      {
+        "name": "Prepare 5 job interview questions",
+        "type": "one-time"
+      },
+      {
+        "name": "Ask friend, family, or mentor to look over the resume and cover letter before sending it out",
+        "type": "one-time"
+      },
+      {
+        "name": "Upload resume and cover letter to job-finding sites",
+        "type": "one-time"
+      },
+      {
+        "name": "Ask friend(s) and family about job openings",
+        "type": "weekly"
+      },
+      {
+        "name": "Search online for jobs",
+        "type": "weekly"
+      },
+      {
+        "name": "Check the newspaper for jobs",
+        "type": "weekly"
+      },
+      {
+        "name": "Submit an application to 2 job listings",
+        "type": "weekly"
+      },
+      {
+        "name": "Reflect, talk to friend(s) and family",
+        "type": "weekly"
+      },
+      {
+        "name": "Prepare for job interview",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "commute jobs",
+    "category": "Jobs",
+    "subcategory": {
+      "id": 0,
+      "name": "Location",
+      "sortOrder": 1
+    },
+    "name": "Easy commute",
+    "sortOrder": 3,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Update resume",
+        "type": "one-time"
+      },
+      {
+        "name": "Update cover letter",
+        "type": "one-time"
+      },
+      {
+        "name": "Get a MetroCard, buss pass, transit pass, etc",
+        "type": "one-time"
+      },
+      {
+        "name": "Prepare 5 job interview questions",
+        "type": "one-time"
+      },
+      {
+        "name": "Ask friend, family, or mentor to look over the resume and cover letter before sending it out",
+        "type": "one-time"
+      },
+      {
+        "name": "Upload resume and cover letter to job-finding sites",
+        "type": "one-time"
+      },
+      {
+        "name": "Ask friend(s) and family about job openings",
+        "type": "weekly"
+      },
+      {
+        "name": "Search online for jobs",
+        "type": "weekly"
+      },
+      {
+        "name": "Check the newspaper for jobs",
+        "type": "weekly"
+      },
+      {
+        "name": "Submit an application to 2 job listings",
+        "type": "weekly"
+      },
+      {
+        "name": "Reflect, talk to friend(s) and family",
+        "type": "weekly"
+      },
+      {
+        "name": "Prepare for job interview",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "support family",
+    "category": "Jobs",
+    "subcategory": {
+      "id": 1,
+      "name": "Income & Benefits",
+      "sortOrder": 2
+    },
+    "name": "Income is enough to support my family",
+    "sortOrder": 1,
+    "links": [
+      {
+        "url": "ourreach/index.php?module=ext/ipages/view&id=134",
+        "name": "Job Goals"
+      },
+      {
+        "url": "ourreach/index.php?module=ext/ipages/view&id=135",
+        "name": "Researching Jobs"
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Update resume",
+        "type": "one-time"
+      },
+      {
+        "name": "Update cover letter",
+        "type": "one-time"
+      },
+      {
+        "name": "Pick appriopriate attire for interview",
+        "type": "one-time"
+      },
+      {
+        "name": "Look up employee testimonials on online job sites (such as LinkedIn, Glassdoor, etc)",
+        "type": "one-time"
+      },
+      {
+        "name": "Look over budget",
+        "type": "one-time"
+      },
+      {
+        "name": "Discuss different job opportunities with family",
+        "type": "one-time"
+      },
+      {
+        "name": "Prepare 5 job interview questions",
+        "type": "one-time"
+      },
+      {
+        "name": "Ask friend, family, or mentor to look over the resume and cover letter before sending it out",
+        "type": "one-time"
+      },
+      {
+        "name": "Upload resume and cover letter to job-finding sites",
+        "type": "one-time"
+      },
+      {
+        "name": "Ask friend(s) and family about job openings",
+        "type": "weekly"
+      },
+      {
+        "name": "Search online for jobs",
+        "type": "weekly"
+      },
+      {
+        "name": "Check the newspaper for jobs",
+        "type": "weekly"
+      },
+      {
+        "name": "Spend time networking",
+        "type": "weekly"
+      },
+      {
+        "name": "Work on improving skills",
+        "type": "weekly"
+      },
+      {
+        "name": "Submit an application to 2 job listings",
+        "type": "weekly"
+      },
+      {
+        "name": "Prepare for job interview",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "live comfortably",
+    "category": "Jobs",
+    "subcategory": {
+      "id": 1,
+      "name": "Income & Benefits",
+      "sortOrder": 2
+    },
+    "name": "Income is enough to live comfortably",
+    "sortOrder": 2,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Update resume",
+        "type": "one-time"
+      },
+      {
+        "name": "Update cover letter",
+        "type": "one-time"
+      },
+      {
+        "name": "Pick appriopriate attire for interview",
+        "type": "one-time"
+      },
+      {
+        "name": "Look up employee testimonials on online job sites (such as LinkedIn, Glassdoor, etc)",
+        "type": "one-time"
+      },
+      {
+        "name": "Look over budget",
+        "type": "one-time"
+      },
+      {
+        "name": "Discuss different job opportunities with family",
+        "type": "one-time"
+      },
+      {
+        "name": "Prepare 5 job interview questions",
+        "type": "one-time"
+      },
+      {
+        "name": "Ask friend, family, or mentor to look over the resume and cover letter before sending it out",
+        "type": "one-time"
+      },
+      {
+        "name": "Upload resume and cover letter to job-finding sites",
+        "type": "one-time"
+      },
+      {
+        "name": "Ask friend(s) and family about job openings",
+        "type": "weekly"
+      },
+      {
+        "name": "Search online for jobs",
+        "type": "weekly"
+      },
+      {
+        "name": "Check the newspaper for jobs",
+        "type": "weekly"
+      },
+      {
+        "name": "Spend time networking",
+        "type": "weekly"
+      },
+      {
+        "name": "Work on improving skills",
+        "type": "weekly"
+      },
+      {
+        "name": "Submit an application to 2 job listings",
+        "type": "weekly"
+      },
+      {
+        "name": "Prepare for job interview",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "benefits i want",
+    "category": "Jobs",
+    "subcategory": {
+      "id": 1,
+      "name": "Income & Benefits",
+      "sortOrder": 2
+    },
+    "name": "Amount and type of benefits I want",
+    "sortOrder": 3,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Update resume",
+        "type": "one-time"
+      },
+      {
+        "name": "Update cover letter",
+        "type": "one-time"
+      },
+      {
+        "name": "Pick appriopriate attire for interview",
+        "type": "one-time"
+      },
+      {
+        "name": "Look up employee testimonials on online job sites (such as LinkedIn, Glassdoor, etc)",
+        "type": "one-time"
+      },
+      {
+        "name": "Talk to company recruiter",
+        "type": "one-time"
+      },
+      {
+        "name": "Research more about benefits",
+        "type": "one-time"
+      },
+      {
+        "name": "Prepare 5 job interview questions",
+        "type": "one-time"
+      },
+      {
+        "name": "Ask potential employer about benefits after the interview",
+        "type": "one-time"
+      },
+      {
+        "name": "Ask friend, family, or mentor to look over the resume and cover letter before sending it out",
+        "type": "one-time"
+      },
+      {
+        "name": "Upload resume and cover letter to job-finding sites",
+        "type": "one-time"
+      },
+      {
+        "name": "Ask friend(s) and family about job openings",
+        "type": "weekly"
+      },
+      {
+        "name": "Search online for jobs",
+        "type": "weekly"
+      },
+      {
+        "name": "Check the newspaper for jobs",
+        "type": "weekly"
+      },
+      {
+        "name": "Spend time networking",
+        "type": "weekly"
+      },
+      {
+        "name": "Work on improving skills",
+        "type": "weekly"
+      },
+      {
+        "name": "Submit an application to 2 job listings",
+        "type": "weekly"
+      },
+      {
+        "name": "Prepare for job interview",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "reliable schedule",
+    "category": "Jobs",
+    "subcategory": {
+      "id": 2,
+      "name": "Schedule",
+      "sortOrder": 3
+    },
+    "name": "Reliable work schedule similar each week",
+    "sortOrder": 1,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Update resume",
+        "type": "one-time"
+      },
+      {
+        "name": "Update cover letter",
+        "type": "one-time"
+      },
+      {
+        "name": "Pick appriopriate attire for interview",
+        "type": "one-time"
+      },
+      {
+        "name": "Look up employee testimonials on online job sites (such as LinkedIn, Glassdoor, etc)",
+        "type": "one-time"
+      },
+      {
+        "name": "Talk to company recruiter",
+        "type": "one-time"
+      },
+      {
+        "name": "Map out schedule I would like",
+        "type": "one-time"
+      },
+      {
+        "name": "Make appointment to talk with manager to ask for a new schedule",
+        "type": "one-time"
+      },
+      {
+        "name": "Prepare 5 interview questions",
+        "type": "one-time"
+      },
+      {
+        "name": "Plan childcare",
+        "type": "one-time"
+      },
+      {
+        "name": "Research work-from-home jobs",
+        "type": "one-time"
+      },
+      {
+        "name": "Practice talking with manager to ask for new schedule",
+        "type": "daily"
+      },
+      {
+        "name": "Ask friend(s) and family about job openings",
+        "type": "weekly"
+      },
+      {
+        "name": "Search online for jobs",
+        "type": "weekly"
+      },
+      {
+        "name": "Check the newspaper for jobs",
+        "type": "weekly"
+      },
+      {
+        "name": "Spend time networking",
+        "type": "weekly"
+      },
+      {
+        "name": "Work on improving skills",
+        "type": "weekly"
+      },
+      {
+        "name": "Submit an application to 2 job listings for steadier job",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "times i want",
+    "category": "Jobs",
+    "subcategory": {
+      "id": 2,
+      "name": "Schedule",
+      "sortOrder": 3
+    },
+    "name": "Work hours during time of day/night I want",
+    "sortOrder": 2,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Update resume",
+        "type": "one-time"
+      },
+      {
+        "name": "Update cover letter",
+        "type": "one-time"
+      },
+      {
+        "name": "Pick appriopriate attire for interview",
+        "type": "one-time"
+      },
+      {
+        "name": "Look up employee testimonials on online job sites (such as LinkedIn, Glassdoor, etc)",
+        "type": "one-time"
+      },
+      {
+        "name": "Talk to company recruiter",
+        "type": "one-time"
+      },
+      {
+        "name": "Map out schedule I would like",
+        "type": "one-time"
+      },
+      {
+        "name": "Make appointment to talk with manager to ask for a new schedule",
+        "type": "one-time"
+      },
+      {
+        "name": "Prepare 5 interview questions",
+        "type": "one-time"
+      },
+      {
+        "name": "Plan childcare",
+        "type": "one-time"
+      },
+      {
+        "name": "Research work-from-home jobs",
+        "type": "one-time"
+      },
+      {
+        "name": "Practice talking with manager to ask for new schedule",
+        "type": "daily"
+      },
+      {
+        "name": "Ask friend(s) and family about job openings",
+        "type": "weekly"
+      },
+      {
+        "name": "Search online for jobs",
+        "type": "weekly"
+      },
+      {
+        "name": "Check the newspaper for jobs",
+        "type": "weekly"
+      },
+      {
+        "name": "Spend time networking",
+        "type": "weekly"
+      },
+      {
+        "name": "Work on improving skills",
+        "type": "weekly"
+      },
+      {
+        "name": "Submit an application to 2 job listings for steadier job",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "hours i want",
+    "category": "Jobs",
+    "subcategory": {
+      "id": 2,
+      "name": "Schedule",
+      "sortOrder": 3
+    },
+    "name": "Number of work hours I want",
+    "sortOrder": 3,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Update resume",
+        "type": "one-time"
+      },
+      {
+        "name": "Update cover letter",
+        "type": "one-time"
+      },
+      {
+        "name": "Pick appriopriate attire for interview",
+        "type": "one-time"
+      },
+      {
+        "name": "Look up employee testimonials on online job sites (such as LinkedIn, Glassdoor, etc)",
+        "type": "one-time"
+      },
+      {
+        "name": "Talk to company recruiter",
+        "type": "one-time"
+      },
+      {
+        "name": "Map out schedule I would like",
+        "type": "one-time"
+      },
+      {
+        "name": "Make appointment to talk with manager to ask for a new schedule",
+        "type": "one-time"
+      },
+      {
+        "name": "Prepare 5 interview questions",
+        "type": "one-time"
+      },
+      {
+        "name": "Practice talking with manager to ask for new schedule",
+        "type": "daily"
+      },
+      {
+        "name": "Ask friend(s) and family about job openings",
+        "type": "weekly"
+      },
+      {
+        "name": "Search online for jobs",
+        "type": "weekly"
+      },
+      {
+        "name": "Check the newspaper for jobs",
+        "type": "weekly"
+      },
+      {
+        "name": "Spend time networking",
+        "type": "weekly"
+      },
+      {
+        "name": "Work on improving skills",
+        "type": "weekly"
+      },
+      {
+        "name": "Submit an application to 2 job listings with number of hours I want",
+        "type": "weekly"
+      },
+      {
+        "name": "Prepare for job interview",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "positive difference",
+    "category": "Jobs",
+    "subcategory": {
+      "id": 3,
+      "name": "Enjoyment",
+      "sortOrder": 4
+    },
+    "name": "I make a positive difference",
+    "sortOrder": 1,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Update resume",
+        "type": "one-time"
+      },
+      {
+        "name": "Update cover letter",
+        "type": "one-time"
+      },
+      {
+        "name": "Pick appriopriate attire for interview",
+        "type": "one-time"
+      },
+      {
+        "name": "Look up employee testimonials on online job sites (such as LinkedIn, Glassdoor, etc)",
+        "type": "one-time"
+      },
+      {
+        "name": "Prepare 5 interview questions",
+        "type": "one-time"
+      },
+      {
+        "name": "Ask friend(s) and family about job openings",
+        "type": "weekly"
+      },
+      {
+        "name": "Search online for jobs",
+        "type": "weekly"
+      },
+      {
+        "name": "Check the newspaper for jobs",
+        "type": "weekly"
+      },
+      {
+        "name": "Spend time networking",
+        "type": "weekly"
+      },
+      {
+        "name": "Work on improving skills",
+        "type": "weekly"
+      },
+      {
+        "name": "Submit an application to 2 job listings",
+        "type": "weekly"
+      },
+      {
+        "name": "Prepare for job interview",
+        "type": "weekly"
+      },
+      {
+        "name": "Reflect, talk to fellow co-workers, friends and family",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "enjoy coworkers",
+    "category": "Jobs",
+    "subcategory": {
+      "id": 3,
+      "name": "Enjoyment",
+      "sortOrder": 4
+    },
+    "name": "I enjoy my coworkers",
+    "sortOrder": 2,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Update resume",
+        "type": "one-time"
+      },
+      {
+        "name": "Update cover letter",
+        "type": "one-time"
+      },
+      {
+        "name": "Pick appriopriate attire for interview",
+        "type": "one-time"
+      },
+      {
+        "name": "Look up employee testimonials on online job sites (such as LinkedIn, Glassdoor, etc)",
+        "type": "one-time"
+      },
+      {
+        "name": "Prepare 5 interview questions",
+        "type": "one-time"
+      },
+      {
+        "name": "Ask friend(s) and family about job openings",
+        "type": "weekly"
+      },
+      {
+        "name": "Search online for jobs",
+        "type": "weekly"
+      },
+      {
+        "name": "Check the newspaper for jobs",
+        "type": "weekly"
+      },
+      {
+        "name": "Spend time networking",
+        "type": "weekly"
+      },
+      {
+        "name": "Work on improving skills",
+        "type": "weekly"
+      },
+      {
+        "name": "Submit an application to 2 job listings",
+        "type": "weekly"
+      },
+      {
+        "name": "Prepare for job interview",
+        "type": "weekly"
+      },
+      {
+        "name": "Reflect, talk to fellow co-workers, friends and family",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "feel appreciated",
+    "category": "Jobs",
+    "subcategory": {
+      "id": 3,
+      "name": "Enjoyment",
+      "sortOrder": 4
+    },
+    "name": "I feel appreciated and valued",
+    "sortOrder": 3,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Update resume",
+        "type": "one-time"
+      },
+      {
+        "name": "Update cover letter",
+        "type": "one-time"
+      },
+      {
+        "name": "Pick appriopriate attire for interview",
+        "type": "one-time"
+      },
+      {
+        "name": "Look up employee testimonials on online job sites (such as LinkedIn, Glassdoor, etc)",
+        "type": "one-time"
+      },
+      {
+        "name": "Schedule a meeting with manager",
+        "type": "one-time"
+      },
+      {
+        "name": "Prepare 5 interview questions",
+        "type": "one-time"
+      },
+      {
+        "name": "Ask friend(s) and family about job openings",
+        "type": "weekly"
+      },
+      {
+        "name": "Search online for jobs",
+        "type": "weekly"
+      },
+      {
+        "name": "Check the newspaper for jobs",
+        "type": "weekly"
+      },
+      {
+        "name": "Spend time networking",
+        "type": "weekly"
+      },
+      {
+        "name": "Work on improving skills",
+        "type": "weekly"
+      },
+      {
+        "name": "Submit an application to 2 job listings",
+        "type": "weekly"
+      },
+      {
+        "name": "Prepare for job interview",
+        "type": "weekly"
+      },
+      {
+        "name": "Reflect, talk to fellow co-workers, friends and family",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "love what i do",
+    "category": "Jobs",
+    "subcategory": {
+      "id": 3,
+      "name": "Enjoyment",
+      "sortOrder": 4
+    },
+    "name": "I love what I do",
+    "sortOrder": 4,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Update resume",
+        "type": "one-time"
+      },
+      {
+        "name": "Update cover letter",
+        "type": "one-time"
+      },
+      {
+        "name": "Pick appriopriate attire for interview",
+        "type": "one-time"
+      },
+      {
+        "name": "Schedule meeting with manager",
+        "type": "one-time"
+      },
+      {
+        "name": "Prepare 5 interview questions",
+        "type": "one-time"
+      },
+      {
+        "name": "Ask friend(s) and family about job openings",
+        "type": "weekly"
+      },
+      {
+        "name": "Search online for jobs",
+        "type": "weekly"
+      },
+      {
+        "name": "Check the newspaper for jobs",
+        "type": "weekly"
+      },
+      {
+        "name": "Spend time networking",
+        "type": "weekly"
+      },
+      {
+        "name": "Work on improving skills",
+        "type": "weekly"
+      },
+      {
+        "name": "Submit an application to 2 job listings",
+        "type": "weekly"
+      },
+      {
+        "name": "Prepare for job interview",
+        "type": "weekly"
+      },
+      {
+        "name": "Reflect, talk to fellow co-workers, friends and family",
+        "type": "weekly"
+      },
+      {
+        "name": "Practice for meeting with manager about different responsibilities",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "challenges me",
+    "category": "Jobs",
+    "subcategory": {
+      "id": 3,
+      "name": "Enjoyment",
+      "sortOrder": 4
+    },
+    "name": "It challenges me to grow",
+    "sortOrder": 5,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Update resume",
+        "type": "one-time"
+      },
+      {
+        "name": "Update cover letter",
+        "type": "one-time"
+      },
+      {
+        "name": "Pick appriopriate attire for interview",
+        "type": "one-time"
+      },
+      {
+        "name": "Schedule meeting with manager",
+        "type": "one-time"
+      },
+      {
+        "name": "Prepare 5 interview questions",
+        "type": "one-time"
+      },
+      {
+        "name": "Ask friend(s) and family about job openings",
+        "type": "weekly"
+      },
+      {
+        "name": "Search online for jobs",
+        "type": "weekly"
+      },
+      {
+        "name": "Check the newspaper for jobs",
+        "type": "weekly"
+      },
+      {
+        "name": "Spend time networking",
+        "type": "weekly"
+      },
+      {
+        "name": "Work on improving skills",
+        "type": "weekly"
+      },
+      {
+        "name": "Submit an application to 2 job listings",
+        "type": "weekly"
+      },
+      {
+        "name": "Prepare for job interview",
+        "type": "weekly"
+      },
+      {
+        "name": "Reflect, talk to fellow co-workers, friends and family",
+        "type": "weekly"
+      },
+      {
+        "name": "Practice for meeting with manager about different responsibilities",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "fits personality",
+    "category": "Jobs",
+    "subcategory": {
+      "id": 3,
+      "name": "Enjoyment",
+      "sortOrder": 4
+    },
+    "name": "It fits my personality",
+    "sortOrder": 6,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none",
+      "startLabel": "",
+      "endLabel": "",
+      "unit": "",
+      "placeholderStartValue": "---",
+      "placeholderEndValue": "---"
+    },
+    "goals": [
+      {
+        "name": "Update resume",
+        "type": "one-time"
+      },
+      {
+        "name": "Update cover letter",
+        "type": "one-time"
+      },
+      {
+        "name": "Pick appriopriate attire for interview",
+        "type": "one-time"
+      },
+      {
+        "name": "Schedule meeting with manager",
+        "type": "one-time"
+      },
+      {
+        "name": "Prepare 5 interview questions",
+        "type": "one-time"
+      },
+      {
+        "name": "Ask friend(s) and family about job openings",
+        "type": "weekly"
+      },
+      {
+        "name": "Search online for jobs",
+        "type": "weekly"
+      },
+      {
+        "name": "Check the newspaper for jobs",
+        "type": "weekly"
+      },
+      {
+        "name": "Spend time networking",
+        "type": "weekly"
+      },
+      {
+        "name": "Work on improving skills",
+        "type": "weekly"
+      },
+      {
+        "name": "Submit an application to 2 job listings",
+        "type": "weekly"
+      },
+      {
+        "name": "Prepare for job interview",
+        "type": "weekly"
+      },
+      {
+        "name": "Reflect, talk to fellow co-workers, friends and family",
+        "type": "weekly"
+      },
+      {
+        "name": "Practice for meeting with manager about different responsibilities",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "financial plan",
+    "category": "Money",
+    "subcategory": {
+      "id": 0,
+      "name": "Budgeting",
+      "sortOrder": 1
+    },
+    "name": "Make a financial plan for the future",
+    "sortOrder": 1,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none"
+    },
+    "goals": [
+      {
+        "name": "Make a list of needs & wants",
+        "type": "one-time"
+      },
+      {
+        "name": "Build my six-month budget",
+        "type": "one-time"
+      },
+      {
+        "name": "Talk to family about budget planning",
+        "type": "one-time"
+      },
+      {
+        "name": "Plan for emergency fund",
+        "type": "one-time"
+      },
+      {
+        "name": "Plan for monthly payment(s) towards debt",
+        "type": "one-time"
+      },
+      {
+        "name": "Plan for saving beyond emergency fund",
+        "type": "one-time"
+      },
+      {
+        "name": "Find a financial advisor (free and trusted program at non-profit org., library, church, etc.)",
+        "type": "one-time"
+      },
+      {
+        "name": "Enroll in trusted online financial literacy program",
+        "type": "one-time"
+      },
+      {
+        "name": "Make budget spreadsheet",
+        "type": "one-time"
+      },
+      {
+        "name": "Use trusted online budget service without linking accounts",
+        "type": "one-time"
+      },
+      {
+        "name": "Link accounts with trusted online budget service",
+        "type": "one-time"
+      },
+      {
+        "name": "Record my income and expenses for the day",
+        "type": "daily"
+      },
+      {
+        "name": "Do 30 minutes in trusted online financial literacy course",
+        "type": "daily"
+      }
+    ]
+  },
+  {
+    "id": "create budgets",
+    "category": "Money",
+    "subcategory": {
+      "id": 0,
+      "name": "Budgeting",
+      "sortOrder": 1
+    },
+    "name": "Create and stick to monthly and weekly budgets",
+    "sortOrder": 2,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none"
+    },
+    "goals": [
+      {
+        "name": "Make a list of needs & wants",
+        "type": "one-time"
+      },
+      {
+        "name": "Build my monthly budget",
+        "type": "one-time"
+      },
+      {
+        "name": "Build my weekly budget",
+        "type": "one-time"
+      },
+      {
+        "name": "Make sure to include items that occur less often than monthly",
+        "type": "one-time"
+      },
+      {
+        "name": "Talk to family about budget planning",
+        "type": "one-time"
+      },
+      {
+        "name": "Enroll in trusted online financial literacy program",
+        "type": "one-time"
+      },
+      {
+        "name": "Ask financial advisor (free program at non-profit org., library, church, etc.) about budgeting",
+        "type": "one-time"
+      },
+      {
+        "name": "Record my income and expenses as they occur",
+        "type": "daily"
+      },
+      {
+        "name": "Do 30 minutes in trusted online financial literacy course",
+        "type": "daily"
+      },
+      {
+        "name": "Comparison shop when buying items",
+        "type": "daily"
+      }
+    ]
+  },
+  {
+    "id": "child support",
+    "category": "Money",
+    "subcategory": {
+      "id": 0,
+      "name": "Budgeting",
+      "sortOrder": 1
+    },
+    "name": "Participate in financial child support",
+    "sortOrder": 3,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none"
+    },
+    "goals": [
+      {
+        "name": "Include child support in current budget",
+        "type": "one-time"
+      },
+      {
+        "name": "Consider different payment options (Venmo, Zell, etc)",
+        "type": "one-time"
+      },
+      {
+        "name": "Choose best payment option (Venmo, Zell, etc)",
+        "type": "one-time"
+      },
+      {
+        "name": "Contact Child Support Services or family law attorney for assistance or questions",
+        "type": "one-time"
+      },
+      {
+        "name": "Contact Child Support Services or family law attorney if trying to modify child support order",
+        "type": "one-time"
+      },
+      {
+        "name": "Communicate with other parent about payment schedule (in-person, through text, through a lawyer, etc)",
+        "type": "weekly"
+      },
+      {
+        "name": "Keep updated on state's child support guidelines",
+        "type": "monthly",
+        "days": [
+          1
+        ]
+      },
+      {
+        "name": "Make child support payment",
+        "type": "monthly",
+        "days": [
+          1
+        ]
+      },
+      {
+        "name": "Check that I received child support payment",
+        "type": "monthly",
+        "days": [
+          1
+        ]
+      },
+      {
+        "name": "Check that parent or guardian received child support payment",
+        "type": "monthly",
+        "days": [
+          1
+        ]
+      },
+      {
+        "name": "Check that parent or guardian made child support payment",
+        "type": "monthly",
+        "days": [
+          1
+        ]
+      }
+    ]
+  },
+  {
+    "id": "identification documents",
+    "category": "Money",
+    "subcategory": {
+      "id": 2,
+      "name": "Income Programs",
+      "sortOrder": 3
+    },
+    "name": "Establish necessary identification documents",
+    "sortOrder": 1,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none"
+    },
+    "goals": [
+      {
+        "name": "Identify programs that would match my needs",
+        "type": "one-time"
+      },
+      {
+        "name": "Make a list of each program's required identification documents",
+        "type": "one-time"
+      },
+      {
+        "name": "Contact program representative with questions",
+        "type": "one-time"
+      },
+      {
+        "name": "Organize required identification documents",
+        "type": "one-time"
+      },
+      {
+        "name": "Sign-up for driving test (to get driver's license) ",
+        "type": "one-time"
+      },
+      {
+        "name": "Contact state department of vital records (to get birth certificate)",
+        "type": "one-time"
+      }
+    ]
+  },
+  {
+    "id": "SNAP",
+    "category": "Money",
+    "subcategory": {
+      "id": 2,
+      "name": "Income Programs",
+      "sortOrder": 3
+    },
+    "name": "Apply for SNAP",
+    "sortOrder": 2,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none"
+    },
+    "goals": [
+      {
+        "name": "Make a budget of current needs and spending",
+        "type": "one-time"
+      },
+      {
+        "name": "Make a list of needs (based on current income, spending, etc)",
+        "type": "one-time"
+      },
+      {
+        "name": "Check that SNAP matches my needs",
+        "type": "one-time"
+      },
+      {
+        "name": "Research state eligibility requirements (resource and income limits, etc)",
+        "type": "one-time"
+      },
+      {
+        "name": "Check that I match state's eligibility requirements (resource and income limits, etc)",
+        "type": "one-time"
+      },
+      {
+        "name": "Call state's SNAP information hotline with questions",
+        "type": "one-time"
+      },
+      {
+        "name": "Visit state agency's website for more information",
+        "type": "one-time"
+      },
+      {
+        "name": "Submit state's SNAP application",
+        "type": "one-time"
+      },
+      {
+        "name": "Do eligibility interview",
+        "type": "one-time"
+      },
+      {
+        "name": "After certification period ends, apply to recertify to continue receiving SNAP benefits",
+        "type": "one-time"
+      },
+      {
+        "name": "Contact local SNAP office with questions",
+        "type": "one-time"
+      },
+      {
+        "name": "Request a fair hearing with an official (If I disagree with a decision made on my SNAP case)",
+        "type": "one-time"
+      }
+    ]
+  },
+  {
+    "id": "WIC",
+    "category": "Money",
+    "subcategory": {
+      "id": 2,
+      "name": "Income Programs",
+      "sortOrder": 3
+    },
+    "name": "Apply for WIC",
+    "sortOrder": 3,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none"
+    },
+    "goals": [
+      {
+        "name": "Make a budget of current needs and spending",
+        "type": "one-time"
+      },
+      {
+        "name": "Make a list of needs (based on current income, spending, etc)",
+        "type": "one-time"
+      },
+      {
+        "name": "Check that WIC matches my needs",
+        "type": "one-time"
+      },
+      {
+        "name": "Contact state or local agency to set up an appointment",
+        "type": "one-time"
+      },
+      {
+        "name": "Research state eligibility requirements (category, residency, income, nutrition risk, etc)",
+        "type": "one-time"
+      },
+      {
+        "name": "Check that I match state's eligibility requirements (category, residency, income, nutrition risk, etc)",
+        "type": "one-time"
+      },
+      {
+        "name": "Bring all required materials to WIC appointment",
+        "type": "one-time"
+      }
+    ]
+  },
+  {
+    "id": "relevant programs",
+    "category": "Money",
+    "subcategory": {
+      "id": 2,
+      "name": "Income Programs",
+      "sortOrder": 3
+    },
+    "name": "Participate in relevant income programs",
+    "sortOrder": 4,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none"
+    },
+    "goals": [
+      {
+        "name": "Make a budget of current needs and spending",
+        "type": "one-time"
+      },
+      {
+        "name": "Make a list of needs (based on current income, spending, etc)",
+        "type": "one-time"
+      },
+      {
+        "name": "Research state and federal programs",
+        "type": "one-time"
+      },
+      {
+        "name": "Identify programs that would match my needs",
+        "type": "one-time"
+      },
+      {
+        "name": "Check program eligibility requirements (income level, residency requirements, etc)",
+        "type": "one-time"
+      },
+      {
+        "name": "Make a list of each program's required identification documents",
+        "type": "one-time"
+      },
+      {
+        "name": "Contact program representative with questions",
+        "type": "one-time"
+      },
+      {
+        "name": "Apply to programs that would match my needs",
+        "type": "one-time"
+      }
+    ]
+  },
+  {
+    "id": "reduce debt",
+    "category": "Money",
+    "subcategory": {
+      "id": 1,
+      "name": "Personal Finance",
+      "sortOrder": 2
+    },
+    "name": "Plan to reduce debt",
+    "sortOrder": 1,
+    "links": [
+      {
+        "url": "ourreach/index.php?module=ext/ipages/view&id=111",
+        "name": "Saving"
+      }
+    ],
+    "measures": {
+      "type": "none"
+    },
+    "goals": [
+      {
+        "name": "Talk to family or friend(s) about reducing debt",
+        "type": "one-time"
+      },
+      {
+        "name": "Avoid \"payday loans\"",
+        "type": "one-time"
+      },
+      {
+        "name": "List the interest rates on my credit cards",
+        "type": "one-time"
+      },
+      {
+        "name": "Ask financial advisor (free program at non-profit org., library, church, etc.) about reducing debt",
+        "type": "one-time"
+      },
+      {
+        "name": "Brainstorm with a trusted advisor about creative ways to make more money",
+        "type": "one-time"
+      },
+      {
+        "name": "Brainstorm with a trusted advisor about areas to cut back (stop buying coffee out, switching to a cheaper phone plan, etc)",
+        "type": "one-time"
+      },
+      {
+        "name": "Learn about Dave Ramsey's 'Debt Snowball'",
+        "type": "one-time"
+      },
+      {
+        "name": "Consider credit card interest rate before using card",
+        "type": "daily"
+      },
+      {
+        "name": "Track credit card payments",
+        "type": "daily"
+      },
+      {
+        "name": "Save enough to pay $10 more than minimum payment on credit card each month",
+        "type": "monthly"
+      },
+      {
+        "name": "Pay credit cards on time",
+        "type": "monthly"
+      },
+      {
+        "name": "Pay student loans on time",
+        "type": "monthly"
+      },
+      {
+        "name": "Pay more than minimum on highest rate credit cards",
+        "type": "monthly"
+      }
+    ]
+  },
+  {
+    "id": "overdraft",
+    "category": "Money",
+    "subcategory": {
+      "id": 1,
+      "name": "Personal Finance",
+      "sortOrder": 2
+    },
+    "name": "Get out of OverDraft",
+    "sortOrder": 2,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none"
+    },
+    "goals": [
+      {
+        "name": "Make list of payments due and income expected (use paper or computer)",
+        "type": "one-time"
+      },
+      {
+        "name": "Set up overdraft protection",
+        "type": "one-time"
+      },
+      {
+        "name": "Schedule appointment at bank",
+        "type": "one-time"
+      },
+      {
+        "name": "Refer to list of payments due and income expected",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "checking account",
+    "category": "Money",
+    "subcategory": {
+      "id": 1,
+      "name": "Personal Finance",
+      "sortOrder": 2
+    },
+    "name": "Establish checking account at bank",
+    "sortOrder": 3,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none"
+    },
+    "goals": [
+      {
+        "name": "Ask financial advisor (free program at non-profit org., library, church, etc.) about banks",
+        "type": "one-time"
+      },
+      {
+        "name": "Research banks for favorable programs (low-cost checking, available ATMs, etc.)",
+        "type": "one-time"
+      },
+      {
+        "name": "Schedule appointment at bank",
+        "type": "one-time"
+      }
+    ]
+  },
+  {
+    "id": "emergency fund",
+    "category": "Money",
+    "subcategory": {
+      "id": 1,
+      "name": "Personal Finance",
+      "sortOrder": 2
+    },
+    "name": "Establish Emergency Fund",
+    "sortOrder": 4,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none"
+    },
+    "goals": [
+      {
+        "name": "Open savings account",
+        "type": "one-time"
+      },
+      {
+        "name": "Schedule appointment at bank",
+        "type": "one-time"
+      },
+      {
+        "name": "Find \"introductory interest-free repayment\" credit card to use just in emergencies",
+        "type": "one-time"
+      },
+      {
+        "name": "Put 5% of every paycheck into emergency fund",
+        "type": "weekly",
+        "days": {
+          "fri": [
+            61200
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "credit",
+    "category": "Money",
+    "subcategory": {
+      "id": 1,
+      "name": "Personal Finance",
+      "sortOrder": 2
+    },
+    "name": "Establish good credit",
+    "sortOrder": 5,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none"
+    },
+    "goals": [
+      {
+        "name": "Ask financial advisor (free program at non-profit org., library, church, etc.) about building good credit",
+        "type": "one-time"
+      },
+      {
+        "name": "Research banks for favorable credit cards with low interest",
+        "type": "one-time"
+      },
+      {
+        "name": "Schedule appointment at bank",
+        "type": "one-time"
+      },
+      {
+        "name": "Avoid \"payday loans\"",
+        "type": "one-time"
+      },
+      {
+        "name": "Organize my credit records",
+        "type": "one-time"
+      },
+      {
+        "name": "Apply for secured credit card account(s)",
+        "type": "one-time"
+      },
+      {
+        "name": "Do 30 minutes in trusted online financial literacy course",
+        "type": "daily"
+      },
+      {
+        "name": "Save enough to pay $10 more than minimum payment on credit card each month",
+        "type": "monthly"
+      },
+      {
+        "name": "Pay student loans on time",
+        "type": "monthly"
+      },
+      {
+        "name": "Check for credit report errors",
+        "type": "monthly"
+      }
+    ]
+  },
+  {
+    "id": "high school",
+    "category": "Education",
+    "subcategory": {
+      "id": 0,
+      "name": "Education Level",
+      "sortOrder": 1
+    },
+    "name": "High school diploma",
+    "sortOrder": 1,
+    "links": [
+      {
+        "url": "ourreach/index.php?module=ext/ipages/view&id=44",
+        "name": "High School or GED"
+      }
+    ],
+    "measures": {
+      "type": "dropdown",
+      "startLabel": "What is your current level of education?",
+      "endLabel": "What level do you want to acquire?",
+      "startOptions": [
+        "Some high school completed",
+        "High school diploma"
+      ],
+      "defaultStart": "Some high school completed",
+      "defaultEnd": "High school diploma"
+    },
+    "goals": [
+      {
+        "name": "Talk with guidance counselor at school",
+        "type": "one-time"
+      },
+      {
+        "name": "Set up a quiet place in my home to study and do homework",
+        "type": "one-time"
+      },
+      {
+        "name": "Find a study group",
+        "type": "one-time"
+      },
+      {
+        "name": "Make a plan for doing daily homework",
+        "type": "one-time"
+      },
+      {
+        "name": "Make a plan for doing longer projects",
+        "type": "one-time"
+      },
+      {
+        "name": "Explore ways to learn STEM (Science,Tech,Engin,Math)",
+        "type": "one-time"
+      },
+      {
+        "name": "Complete homework assignments",
+        "type": "daily"
+      },
+      {
+        "name": "Review homework requirements",
+        "type": "daily"
+      },
+      {
+        "name": "Practice using computer",
+        "type": "daily"
+      },
+      {
+        "name": "Read for fun for 30 minutes",
+        "type": "daily"
+      },
+      {
+        "name": "Go the the school library to do homework",
+        "type": "weekly",
+        "days": {
+          "mon": [
+            61200
+          ],
+          "wed": [
+            61200
+          ],
+          "fri": [
+            61200
+          ]
+        }
+      },
+      {
+        "name": "Make flashcards for test",
+        "type": "weekly"
+      },
+      {
+        "name": "Attend after-school tutoring with my teacher",
+        "type": "weekly"
+      },
+      {
+        "name": "Do study session with friend",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "GED",
+    "category": "Education",
+    "subcategory": {
+      "id": 0,
+      "name": "Education Level",
+      "sortOrder": 1
+    },
+    "name": "GED",
+    "sortOrder": 2,
+    "links": [
+      {
+        "url": "ourreach/index.php?module=ext/ipages/view&id=44",
+        "name": "High School or GED"
+      }
+    ],
+    "measures": {
+      "type": "dropdown",
+      "startLabel": "What is your current level of education?",
+      "endLabel": "What level do you want to acquire?",
+      "startOptions": [
+        "Some high school completed",
+        "GED"
+      ],
+      "defaultStart": "Some high school completed",
+      "defaultEnd": "GED"
+    },
+    "goals": [
+      {
+        "name": "Research requirements for GED",
+        "type": "one-time"
+      },
+      {
+        "name": "Find online prep course",
+        "type": "one-time"
+      },
+      {
+        "name": "Order study materials online",
+        "type": "one-time"
+      },
+      {
+        "name": "Make a plan for studying for GED",
+        "type": "one-time"
+      },
+      {
+        "name": "Take a practice GED exam",
+        "type": "one-time"
+      },
+      {
+        "name": "Review completed practice exam",
+        "type": "one-time"
+      },
+      {
+        "name": "Check exam locations",
+        "type": "one-time"
+      },
+      {
+        "name": "Register for the GED exam",
+        "type": "one-time"
+      },
+      {
+        "name": "Prepare proper identification for exam",
+        "type": "one-time"
+      },
+      {
+        "name": "Checkout a GED prep book from the library",
+        "type": "one-time"
+      },
+      {
+        "name": "Set a budget for prep course and the test",
+        "type": "one-time"
+      },
+      {
+        "name": "Study for GED exam for 1 hour",
+        "type": "daily"
+      },
+      {
+        "name": "Practice using computer",
+        "type": "daily"
+      },
+      {
+        "name": "Read for fun for 30 minutes",
+        "type": "daily"
+      },
+      {
+        "name": "Do study session with friend",
+        "type": "weekly"
+      },
+      {
+        "name": "Make flashcards for test",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "associate's degree",
+    "category": "Education",
+    "subcategory": {
+      "id": 0,
+      "name": "Education Level",
+      "sortOrder": 1
+    },
+    "name": "Associate's degree",
+    "sortOrder": 3,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "dropdown",
+      "startLabel": "What is your current level of education?",
+      "endLabel": "What level do you want to acquire?",
+      "startOptions": [
+        "Some high school completed",
+        "GED",
+        "High school diploma",
+        "Trade/technical/vocational training",
+        "Military with related training",
+        "Associate's degree"
+      ],
+      "defaultStart": "Some high school completed",
+      "defaultEnd": "Associate's degree"
+    },
+    "goals": [
+      {
+        "name": "Talk with guidance counselor at school about applying to community college",
+        "type": "one-time"
+      },
+      {
+        "name": "Research community colleges",
+        "type": "one-time"
+      },
+      {
+        "name": "Apply for community colleges",
+        "type": "one-time"
+      },
+      {
+        "name": "Apply for financial aid and scholarships",
+        "type": "one-time"
+      },
+      {
+        "name": "Enroll at community college",
+        "type": "one-time"
+      },
+      {
+        "name": "Track degree progress and credit requirements",
+        "type": "one-time"
+      },
+      {
+        "name": "Talk with course advisor at community college",
+        "type": "one-time"
+      },
+      {
+        "name": "Find a study group",
+        "type": "one-time"
+      },
+      {
+        "name": "Order study materials online",
+        "type": "one-time"
+      },
+      {
+        "name": "Create flashcards",
+        "type": "one-time"
+      },
+      {
+        "name": "Check ways to learn STEM (Science, Tech, Engin, Math) in community college",
+        "type": "one-time"
+      },
+      {
+        "name": "Make a plan for doing daily homework",
+        "type": "one-time"
+      },
+      {
+        "name": "Make a plan for doing longer projects",
+        "type": "one-time"
+      },
+      {
+        "name": "Ask teacher or mentor for recommendation letter",
+        "type": "one-time"
+      },
+      {
+        "name": "Research fields and programs",
+        "type": "one-time"
+      },
+      {
+        "name": "Request copies of GED/high school transcript",
+        "type": "one-time"
+      },
+      {
+        "name": "Ask guidance counselor for application fee waivers",
+        "type": "one-time"
+      },
+      {
+        "name": "Work on application materials for community college",
+        "type": "daily"
+      },
+      {
+        "name": "Do homework",
+        "type": "daily"
+      },
+      {
+        "name": "Work on application essay",
+        "type": "daily"
+      },
+      {
+        "name": "Do study session with friend",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "bachelor's degree",
+    "category": "Education",
+    "subcategory": {
+      "id": 0,
+      "name": "Education Level",
+      "sortOrder": 1
+    },
+    "name": "Bachelor's degree",
+    "sortOrder": 4,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "dropdown",
+      "startLabel": "What is your current level of education?",
+      "endLabel": "What level do you want to acquire?",
+      "startOptions": [
+        "Some high school completed",
+        "GED",
+        "High school diploma",
+        "Trade/technical/vocational training",
+        "Associate's degree",
+        "Military with related training",
+        "Bachelor's degree"
+      ],
+      "defaultStart": "High school diploma",
+      "defaultEnd": "Bachelor's degree"
+    },
+    "goals": [
+      {
+        "name": "Talk with guidance counselor at school about applying to college/university",
+        "type": "one-time"
+      },
+      {
+        "name": "Research colleges/universities",
+        "type": "one-time"
+      },
+      {
+        "name": "Research colleges/universities (including children-friendly ones)",
+        "type": "one-time"
+      },
+      {
+        "name": "Apply for colleges/universities",
+        "type": "one-time"
+      },
+      {
+        "name": "Apply for financial aid and scholarships",
+        "type": "one-time"
+      },
+      {
+        "name": "Enroll at college/university",
+        "type": "one-time"
+      },
+      {
+        "name": "Track degree progress and credit requirements",
+        "type": "one-time"
+      },
+      {
+        "name": "Talk with academic advisor at college/university",
+        "type": "one-time"
+      },
+      {
+        "name": "Make a plan for doing daily homework",
+        "type": "one-time"
+      },
+      {
+        "name": "Make a plan for doing longer projects",
+        "type": "one-time"
+      },
+      {
+        "name": "Find a study group",
+        "type": "one-time"
+      },
+      {
+        "name": "Order study materials online",
+        "type": "one-time"
+      },
+      {
+        "name": "Apply for internships",
+        "type": "one-time"
+      },
+      {
+        "name": "Go to tutoring sessions",
+        "type": "one-time"
+      },
+      {
+        "name": "Check ways to learn STEM (Science, Tech, Engin, Math) in college/univ",
+        "type": "one-time"
+      },
+      {
+        "name": "Work on application materials for college/university",
+        "type": "daily"
+      },
+      {
+        "name": "Do homework",
+        "type": "daily"
+      },
+      {
+        "name": "Study for SAT",
+        "type": "daily"
+      },
+      {
+        "name": "Study for ACT",
+        "type": "daily"
+      },
+      {
+        "name": "Do study session with friend",
+        "type": "weekly"
+      },
+      {
+        "name": "Research internships",
+        "type": "weekly"
+      },
+      {
+        "name": "Work on application essays",
+        "type": "weekly"
+      },
+      {
+        "name": "Ask guidance counselor to review and edit application essay",
+        "type": "weekly"
+      },
+      {
+        "name": "Work on scholarship application materials/apply for scholarships",
+        "type": "weekly"
+      },
+      {
+        "name": "Make flashcards for test",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "military",
+    "category": "Education",
+    "subcategory": {
+      "id": 0,
+      "name": "Education Level",
+      "sortOrder": 1
+    },
+    "name": "Military with related training",
+    "sortOrder": 5,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "dropdown",
+      "startLabel": "What is your current level of education?",
+      "endLabel": "What level do you want to acquire?",
+      "startOptions": [
+        "Some high school completed",
+        "GED",
+        "High school diploma",
+        "Trade/technical/vocational training",
+        "Associate's degree",
+        "Bachelor's degree",
+        "Military with related training"
+      ],
+      "defaultStart": "High school diploma",
+      "defaultEnd": "Military with related training"
+    },
+    "goals": [
+      {
+        "name": "Talk with guidance counselor at school about military",
+        "type": "one-time"
+      },
+      {
+        "name": "Research programs in military",
+        "type": "one-time"
+      },
+      {
+        "name": "Apply for military",
+        "type": "one-time"
+      },
+      {
+        "name": "Check ways to learn STEM (Science, Tech, Engin, Math) in military",
+        "type": "one-time"
+      },
+      {
+        "name": "Research commitments before enlisting",
+        "type": "one-time"
+      },
+      {
+        "name": "Enlist in military active-duty",
+        "type": "one-time"
+      },
+      {
+        "name": "Enlist in military reserves",
+        "type": "one-time"
+      },
+      {
+        "name": "Know schedule for first three months after enlisting",
+        "type": "one-time"
+      },
+      {
+        "name": "Think about elements involved with military active-duty and reserves",
+        "type": "daily"
+      },
+      {
+        "name": "Talk with family and friends about military",
+        "type": "daily"
+      },
+      {
+        "name": "Work on application materials for military",
+        "type": "daily"
+      }
+    ]
+  },
+  {
+    "id": "training",
+    "category": "Education",
+    "subcategory": {
+      "id": 0,
+      "name": "Education Level",
+      "sortOrder": 1
+    },
+    "name": "Trade/technical/vocational training",
+    "sortOrder": 6,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "dropdown",
+      "startLabel": "What is your current level of education?",
+      "endLabel": "What level do you want to acquire?",
+      "startOptions": [
+        "Some high school completed",
+        "GED",
+        "High school diploma",
+        "Associate's degree",
+        "Bachelor's degree",
+        "Military with related training",
+        "Trade/technical/vocational training"
+      ],
+      "defaultStart": "High school diploma",
+      "defaultEnd": "Trade/technical/vocational training"
+    },
+    "goals": [
+      {
+        "name": "Talk with guidance counselor at school about trade/technical/vocational training",
+        "type": "one-time"
+      },
+      {
+        "name": "Study for trade school entrance exam",
+        "type": "one-time"
+      },
+      {
+        "name": "Apply for financial aid and scholarships",
+        "type": "one-time"
+      },
+      {
+        "name": "Apply for apprenticeships",
+        "type": "one-time"
+      },
+      {
+        "name": "Join a study group",
+        "type": "one-time"
+      },
+      {
+        "name": "Check ways to learn STEM (Science, Tech, Engin, Math) in trade/technical/vocational training",
+        "type": "one-time"
+      },
+      {
+        "name": "Make a plan for doing daily homework",
+        "type": "one-time"
+      },
+      {
+        "name": "Make a plan for doing longer projects",
+        "type": "one-time"
+      },
+      {
+        "name": "Research vocational schools in the area",
+        "type": "one-time"
+      },
+      {
+        "name": "Research childcare options",
+        "type": "one-time"
+      },
+      {
+        "name": "Work on application materials for trade/technical/vocational training",
+        "type": "daily"
+      },
+      {
+        "name": "Do homework",
+        "type": "daily"
+      },
+      {
+        "name": "Practice technical skills",
+        "type": "daily"
+      },
+      {
+        "name": "Do study session with friend",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "postgraduate",
+    "category": "Education",
+    "subcategory": {
+      "id": 0,
+      "name": "Education Level",
+      "sortOrder": 1
+    },
+    "name": "Postgraduate degree",
+    "sortOrder": 7,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "dropdown",
+      "startLabel": "What is your current level of education?",
+      "endLabel": "What level do you want to acquire?",
+      "startOptions": [
+        "Some high school completed",
+        "GED",
+        "High school diploma",
+        "Trade/technical/vocational training",
+        "Associate's degree",
+        "Bachelor's degree",
+        "Military with related training",
+        "Postgraduate degree"
+      ],
+      "defaultStart": "Bachelor's degree",
+      "defaultEnd": "Postgraduate degree"
+    },
+    "goals": [
+      {
+        "name": "Talk with academic advisor at school about applying to graduate programs",
+        "type": "one-time"
+      },
+      {
+        "name": "Research graduate programs (including children-friendly ones)",
+        "type": "one-time"
+      },
+      {
+        "name": "Take the GRE/other entrance exam(s)",
+        "type": "one-time"
+      },
+      {
+        "name": "Ask for references",
+        "type": "one-time"
+      },
+      {
+        "name": "Apply for colleges/universities",
+        "type": "one-time"
+      },
+      {
+        "name": "Apply for financial aid and scholarships",
+        "type": "one-time"
+      },
+      {
+        "name": "Enroll at college/university",
+        "type": "one-time"
+      },
+      {
+        "name": "Track degree progress and credit requirements",
+        "type": "one-time"
+      },
+      {
+        "name": "Talk with academic advisor in grad program",
+        "type": "one-time"
+      },
+      {
+        "name": "Find a study group",
+        "type": "one-time"
+      },
+      {
+        "name": "Make a plan for doing daily homework",
+        "type": "one-time"
+      },
+      {
+        "name": "Make a plan for doing longer projects",
+        "type": "one-time"
+      },
+      {
+        "name": "Work on application materials for graduate program",
+        "type": "daily"
+      },
+      {
+        "name": "Do homework",
+        "type": "daily"
+      },
+      {
+        "name": "Do study session with friend",
+        "type": "weekly"
+      },
+      {
+        "name": "Make flashcards for test",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "close to home",
+    "category": "Education",
+    "subcategory": {
+      "id": 1,
+      "name": "Location",
+      "sortOrder": 2
+    },
+    "name": "Close to home",
+    "sortOrder": 1,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none"
+    },
+    "goals": [
+      {
+        "name": "Talk with guidance counselor at school",
+        "type": "one-time"
+      },
+      {
+        "name": "Check locations of courses before enrolling",
+        "type": "one-time"
+      },
+      {
+        "name": "Get a MetroCard, bus pass, transit pass, etc",
+        "type": "one-time"
+      },
+      {
+        "name": "Search online for degree programs nearby",
+        "type": "one-time"
+      }
+    ]
+  },
+  {
+    "id": "close to school",
+    "category": "Education",
+    "subcategory": {
+      "id": 1,
+      "name": "Location",
+      "sortOrder": 2
+    },
+    "name": "Close to child/ren's school/s",
+    "sortOrder": 2,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none"
+    },
+    "goals": [
+      {
+        "name": "Talk with guidance counselor at school",
+        "type": "one-time"
+      },
+      {
+        "name": "Check locations of courses before enrolling",
+        "type": "one-time"
+      },
+      {
+        "name": "Get a MetroCard, bus pass, transit pass, etc",
+        "type": "one-time"
+      },
+      {
+        "name": "Search online for degree programs nearby",
+        "type": "one-time"
+      }
+    ]
+  },
+  {
+    "id": "commute education",
+    "category": "Education",
+    "subcategory": {
+      "id": 1,
+      "name": "Location",
+      "sortOrder": 2
+    },
+    "name": "Easy commute",
+    "sortOrder": 3,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none"
+    },
+    "goals": [
+      {
+        "name": "Talk with guidance counselor at school",
+        "type": "one-time"
+      },
+      {
+        "name": "Check locations of courses before enrolling",
+        "type": "one-time"
+      },
+      {
+        "name": "Get a MetroCard, bus pass, transit pass, etc",
+        "type": "one-time"
+      },
+      {
+        "name": "Search online for degree programs nearby",
+        "type": "one-time"
+      }
+    ]
+  },
+  {
+    "id": "virtual learning",
+    "category": "Education",
+    "subcategory": {
+      "id": 1,
+      "name": "Location",
+      "sortOrder": 2
+    },
+    "name": "Virtual learning that is not \"self-paced\"",
+    "sortOrder": 4,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none"
+    },
+    "goals": [
+      {
+        "name": "Schedule meeting with academic advisor to learn about online options at current school",
+        "type": "one-time"
+      },
+      {
+        "name": "Search for online degree programs",
+        "type": "one-time"
+      },
+      {
+        "name": "Compare different virtual learning options",
+        "type": "one-time"
+      },
+      {
+        "name": "Practice using computer",
+        "type": "daily"
+      },
+      {
+        "name": "Use online scheduling tool (such as Google calendar) to plan courseload",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "schedule time",
+    "category": "Education",
+    "subcategory": {
+      "id": 2,
+      "name": "Schedule",
+      "sortOrder": 3
+    },
+    "name": "Classes scheduled during time of day/night I want",
+    "sortOrder": 1,
+    "links": [
+      {
+        "url": "ourreach/index.php?module=ext/ipages/view&id=183",
+        "name": "Schedule"
+      }
+    ],
+    "measures": {
+      "type": "none"
+    },
+    "goals": [
+      {
+        "name": "Schedule meeting with academic advisor",
+        "type": "one-time"
+      },
+      {
+        "name": "Use online scheduling tool (such as Google calendar) to plan courseload",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "schedule pacing",
+    "category": "Education",
+    "subcategory": {
+      "id": 2,
+      "name": "Schedule",
+      "sortOrder": 3
+    },
+    "name": "Online courses I can do at my own pace",
+    "sortOrder": 2,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none"
+    },
+    "goals": [
+      {
+        "name": "Schedule meeting with academic advisor to learn about online options at current school",
+        "type": "one-time"
+      },
+      {
+        "name": "Research online \"self-paced\" courses in my field at various schools",
+        "type": "one-time"
+      },
+      {
+        "name": "Set up a space at home for studying",
+        "type": "one-time"
+      },
+      {
+        "name": "Practice using computer",
+        "type": "daily"
+      },
+      {
+        "name": "Use online scheduling tool (such as Google calendar) to plan courseload",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "workload somewhat",
+    "category": "Education",
+    "name": "Workload somewhat manageable",
+    "sortOrder": 1,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "dropdown",
+      "startLabel": "How managable is your current workload?",
+      "endLabel": "How managable do you want your workload to be?",
+      "startOptions": [
+        "Workload not manageable",
+        "Workload somewhat manageable"
+      ],
+      "defaultStart": "Workload not manageable",
+      "defaultEnd": "Workload somewhat manageable"
+    },
+    "goals": [
+      {
+        "name": "Talk with guidance counselor at school",
+        "type": "one-time"
+      },
+      {
+        "name": "Discuss time management ideas with family and friends",
+        "type": "one-time"
+      },
+      {
+        "name": "Use online scheduling tool (such as Google calendar) to manage workload",
+        "type": "weekly"
+      },
+      {
+        "name": "Do study session with friend",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "workload fully",
+    "category": "Education",
+    "name": "Workload fully manageable",
+    "sortOrder": 2,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "dropdown",
+      "startLabel": "How managable is your current workload?",
+      "endLabel": "How managable do you want your workload to be?",
+      "startOptions": [
+        "Workload not manageable",
+        "Workload somewhat manageable",
+        "Workload fully manageable"
+      ],
+      "defaultStart": "Workload not manageable",
+      "defaultEnd": "Workload fully manageable"
+    },
+    "goals": [
+      {
+        "name": "Talk with guidance counselor at school",
+        "type": "one-time"
+      },
+      {
+        "name": "Discuss time management ideas with family and friends",
+        "type": "one-time"
+      },
+      {
+        "name": "Use online scheduling tool (such as Google calendar) to manage workload",
+        "type": "weekly"
+      },
+      {
+        "name": "Do study session with friend",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "healthy balance",
+    "category": "Education",
+    "subcategory": {
+      "id": 2,
+      "name": "Schedule",
+      "sortOrder": 3
+    },
+    "name": "Healthy school-rest-of-life balance",
+    "sortOrder": 3,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none"
+    },
+    "goals": [
+      {
+        "name": "Talk with guidance counselor at school",
+        "type": "one-time"
+      },
+      {
+        "name": "Discuss school-rest-of-life-balance with family and friends",
+        "type": "one-time"
+      },
+      {
+        "name": "Ask friend or family to babysit once a week so I can study",
+        "type": "one-time"
+      },
+      {
+        "name": "Walk/exercise for 30 minutes",
+        "type": "daily"
+      },
+      {
+        "name": "Study when baby is napping",
+        "type": "daily"
+      },
+      {
+        "name": "Use online scheduling tool (such as Google calendar) to manage workload",
+        "type": "weekly"
+      },
+      {
+        "name": "Spend some time with friends",
+        "type": "weekly"
+      }
+    ]
+  },
+  {
+    "id": "like going",
+    "category": "Education",
+    "subcategory": {
+      "id": 2,
+      "name": "Schedule",
+      "sortOrder": 3
+    },
+    "name": "I like going to class",
+    "sortOrder": 4,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none"
+    },
+    "goals": [
+      {
+        "name": "Talk with guidance counselor at school",
+        "type": "one-time"
+      },
+      {
+        "name": "Reflect on the class: talk to a friend, fellow students, or a family member",
+        "type": "daily"
+      },
+      {
+        "name": "Write in my gratitude journal",
+        "type": "daily"
+      }
+    ]
+  },
+  {
+    "id": "challenging",
+    "category": "Education",
+    "subcategory": {
+      "id": 2,
+      "name": "Schedule",
+      "sortOrder": 3
+    },
+    "name": "It challenges me to grow",
+    "sortOrder": 5,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none"
+    },
+    "goals": [
+      {
+        "name": "Talk with guidance counselor or academic advisor",
+        "type": "one-time"
+      },
+      {
+        "name": "Reflect on the class: talk to a friend, fellow students, or a family member",
+        "type": "daily"
+      },
+      {
+        "name": "Write in my gratitude journal",
+        "type": "daily"
+      }
+    ]
+  },
+  {
+    "id": "interesting",
+    "category": "Education",
+    "subcategory": {
+      "id": 2,
+      "name": "Schedule",
+      "sortOrder": 3
+    },
+    "name": "Class topics genuinely interest me",
+    "sortOrder": 6,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none"
+    },
+    "goals": [
+      {
+        "name": "Talk with guidance counselor or academic advisor",
+        "type": "one-time"
+      },
+      {
+        "name": "Look up course descriptions",
+        "type": "one-time"
+      },
+      {
+        "name": "Ask previous students about the material, professors, interests, etc",
+        "type": "one-time"
+      },
+      {
+        "name": "Reflect on the class: talk to a friend, fellow students, or a family member",
+        "type": "daily"
+      },
+      {
+        "name": "Write in my gratitude journal",
+        "type": "daily"
+      }
+    ]
+  },
+  {
+    "id": "challenging",
+    "category": "Education",
+    "subcategory": {
+      "id": 2,
+      "name": "Schedule",
+      "sortOrder": 3
+    },
+    "name": "It challenges me to grow",
+    "sortOrder": 5,
+    "links": [
+      {
+        "url": "",
+        "name": ""
+      }
+    ],
+    "measures": {
+      "type": "none"
+    },
+    "goals": [
+      {
+        "name": "Talk with guidance counselor or academic advisor",
+        "type": "one-time"
+      },
+      {
+        "name": "Reflect on the class: talk to a friend, fellow students, or a family member",
+        "type": "daily"
+      },
+      {
+        "name": "Write in my gratitude journal",
+        "type": "daily"
+      }
+    ]
+  },
+  {
+    "id": "younglives camp",
+    "category": "Other",
+    "subcategory": {
+      "id": 0,
+      "name": "Provider Specific",
+      "sortOrder": 1
+    },
+    "name": "Prepare for YoungLives Camp",
+    "sortOrder": 1,
+    "links": [
+      {
+        "url": "http://demo.ourreachld.com/ourreach/index.php?module=items/info&path=35-40&redirect_to=subentity&gotopage[875]=1",
+        "name": "YoungLives Camp Forms"
+      }
+    ],
+    "measures": {
+      "type": "none"
+    },
+    "goals": [
+      {
+        "name": "Review Camp Health Form (for myself) to learn if my doctor needs to complete any part, in addition to providing immunization records",
+        "type": "one-time"
+      },
+      {
+        "name": "If I only need immunization records from my doctor, call doctor's office to arrange pick-up",
+        "type": "one-time"
+      },
+      {
+        "name": "If I need my doctor to complete part of form in addition to immunization records, drop off form at doctor's office",
+        "type": "one-time"
+      },
+      {
+        "name": "Pick up immunization records (and other part of form, if necessary) from doctor's office",
+        "type": "one-time"
+      },
+      {
+        "name": "Submit to YoungLives my completed Camp Health Form with immunization records",
+        "type": "one-time"
+      },
+      {
+        "name": "Review Camp Health Form (for my child/ren) to learn if pediatrician needs to complete any part, in addition to providing immunization records",
+        "type": "one-time"
+      },
+      {
+        "name": "If I only need immunization records for my child/ren from my pediatrician, call pediatrician's office to arrange pick-up",
+        "type": "one-time"
+      },
+      {
+        "name": "If I need pediatrician to complete part of form in addition to immunization records, drop off form at pediatricians's office",
+        "type": "one-time"
+      },
+      {
+        "name": "Pick up immunization records (and other part of form, if necessary) from pediatrician's office, for each child",
+        "type": "one-time"
+      },
+      {
+        "name": "Submit to YoungLives the completed Camp Health Form for each child, with immunization records",
+        "type": "one-time"
+      },
+      {
+        "name": "Submit to YoungLives the completed Child Information Sheet for each child",
+        "type": "one-time"
+      },
+      {
+        "name": "Submit to YoungLives my completed Camper Contract",
+        "type": "one-time"
+      },
+      {
+        "name": "Review the Camp Packing List to make sure I have everything needed",
+        "type": "one-time"
+      },
+      {
+        "name": "Get anything else needed from the Packing List",
+        "type": "one-time"
+      },
+      {
+        "name": "Pack",
+        "type": "one-time"
+      },
+      {
+        "name": "Leave for Camp",
+        "type": "one-time"
+      }
+    ]
+  },
+  {
+    "id": "younglives ongoing",
+    "category": "Other",
+    "subcategory": {
+      "id": 0,
+      "name": "Provider Specific",
+      "sortOrder": 1
+    },
+    "name": "YoungLives Ongoing Activities",
+    "sortOrder": 2,
+    "links": [
+      {
+        "url": "http://demo.ourreachld.com/ourreach/index.php?module=items/info&path=35-41&redirect_to=subentity&gotopage[875]=1",
+        "name": "YoungLives Ongoing Activities"
+      }
+    ],
+    "measures": {
+      "type": "none"
+    },
+    "goals": [
+      {
+        "name": "Call at least one YoungLives friend",
+        "type": "weekly"
+      },
+      {
+        "name": "Text my YoungLives mentor",
+        "type": "weekly"
+      },
+      {
+        "name": "Attend YoungLives event",
+        "type": "monthly",
+        "days": [
+          14,
+          28
+        ]
+      }
+    ]
+  }
+]

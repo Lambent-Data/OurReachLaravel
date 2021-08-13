@@ -1,0 +1,505 @@
+/********** Milestone view page wrapper START **********/
+
+div.ms-page-content {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:100%;
+}
+
+/********** Milestone view page wrapper END **********/
+
+/********* Milestone page header START ************/
+.title-section {
+    position: relative;
+    padding-right: 6px;
+}
+
+.header {
+    display:flex;
+    width: calc(100% - 40px); /* This is to leave room for the edit icon. */
+}
+
+.header div.edit-button {
+    position: absolute;
+    top: 0px;
+    right: 5px;
+}
+
+.header-title {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.header-title > h4 { margin-top: 3%; }
+.header-title > span { font-size: 1.2em; color:#17a2b8 }
+
+.category-icon {
+    display: flex;
+}
+
+/* Title accordion */
+
+.title-section .accordion {
+    background-image: linear-gradient(to bottom, #dedede 0px, #ffffff00 8px);
+}
+
+.title-section .accordion-content {
+    display: flex;
+    flex-direction: column;
+    padding: min(20px, 4vw);
+}
+
+/********* Milestone page header END ************/
+
+/********** Section titles ***********/
+div.ms-section-title {
+    margin-bottom: 10px;
+    width:100%;
+}
+
+div.ms-section-title > h4 {
+    margin-bottom: 0px;
+    margin-left: 15px;
+}
+
+/********** Milestone page tab mobile START ***********/
+
+.tab-selector {
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    pointer-events: none;
+    display:flex;
+    justify-content: space-evenly;
+    z-index: 1000;
+}
+
+div.tab-button {
+    pointer-events: all;
+    min-width:80px;
+    height: 85px; /* High height for getting over Message tab */
+    /*height: 50px;*/
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    margin-top:auto;
+    background-color: #16a08b; /* match messages */
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 40px 40px 0 0;
+}
+
+div.tab-button.selected {
+    /*background-color: #ccccff;*/
+    background-color: #32d0ab; /* match messages */
+    -webkit-animation: bounceOverMessageTab 2.8s infinite;
+    animation: bounceOverMessageTab 2.8s infinite;
+    animation-timing-function: ease-in-out;
+}
+
+/* Alternative bounce for getting higher than the "Message" tab */
+@-webkit-keyframes bounceOverMessageTab {
+    0% {
+        height: 80;
+    }
+    50% {
+        height: 90;
+    }
+    100% {
+        height: 80;
+    }
+}
+
+@keyframes bounceOverMessageTab {
+    0% {
+        height: 80;
+    }
+    50% {
+        height: 90;
+    }
+    100% {
+        height: 80;
+    }
+}
+
+@-webkit-keyframes bounce {
+    0% {
+        height: 45;
+    }
+    50% {
+        height: 55;
+    }
+    100% {
+        height: 45;
+    }
+}
+
+@keyframes bounce {
+    0% {
+        height: 45;
+    }
+    50% {
+        height: 55;
+    }
+    100% {
+        height: 45;
+    }
+}
+
+/********** Milestone page tab mobile END ***********/
+
+/******* Fading background image START ******/
+
+.image-background {
+    height: 300px;
+}
+
+.image-background.transition-active {
+    transition: height 0.6s ease 0.4s, opacity 0.6s ease 0.4s;
+}
+
+.image-background > div {
+    z-index: 1;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 72% 60%;
+    height:300px;
+    width:100%;
+}
+
+.image-background.transparent {
+    height: 0;
+    opacity: 0;
+}
+
+/******* Fading background image END ******/
+
+
+/******* Static background image START ******/
+.ms-image-section {
+    height: 300px;
+}
+
+.ms-image-section > div {
+    z-index: 1;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 72% 60%;
+    height:300px;
+    width:100%;
+}
+/******* Static background image END ******/
+
+
+/*********** Journal styling START *************/
+
+.vision-section, .purpose-section, .obstacles-section {
+    padding: 6px;
+    flex-grow: 1;
+}
+
+.ms-journal-content, .ms-journal-wrapper, .ms-journal-header {
+    --vision-background-color: #FFEC95;
+    --purpose-background-color: #93C3F1;
+    --obstacles-background-color: #FF7B9C;
+    --vision-line-color: #99B2DD;
+    --purpose-line-color: #b7aeb2;/*#d38ba9;*/
+    --obstacles-line-color: #B968F3;
+    --vision-color: #155EA2;
+    --purpose-color: #99270B;
+    --obstacles-color: #5e31ac;
+    --line-height: 30px;
+    --min-number-lines: 3;
+    --max-number-lines: 400;/* currently not used */
+}
+
+div.ms-journal-wrapper {
+    position:relative;
+    max-width: 700px;
+    border-radius: calc(0.55 * var(--default-icon-size));
+    padding: 20px;
+    margin: auto;
+    filter: drop-shadow(3px 3px 1px #CCC)
+}
+
+.vision-section.editing > .ms-journal-wrapper,
+.purpose-section.editing > .ms-journal-wrapper,
+.obstacles-section.editing > .ms-journal-wrapper {
+    top: -1px;
+    left: -1px;
+    filter: drop-shadow(5px 5px 2px #999);
+}
+
+/* Set background colors for the journal fields */
+.vision-section > div.ms-journal-wrapper { background-color: var(--vision-background-color); }
+.purpose-section > div.ms-journal-wrapper { background-color: var(--purpose-background-color); }
+.obstacles-section > div.ms-journal-wrapper { background-color: var(--obstacles-background-color); }
+
+/* Set text & border colors in the headers */
+.vision-section div.ms-journal-prompt > div.ms-journal-textarea { color: var(--vision-color); }
+.purpose-section div.ms-journal-prompt > div.ms-journal-textarea { color: var(--purpose-color); }
+.obstacles-section div.ms-journal-prompt > div.ms-journal-textarea { color: var(--obstacles-color); }
+
+.vision-section div.ms-journal-title { color: var(--vision-color); border-color: var(--vision-line-color); }
+.purpose-section div.ms-journal-title { color: var(--purpose-color); border-color: var(--purpose-line-color); }
+.obstacles-section div.ms-journal-title { color: var(--obstacles-color); border-color: var(--obstacles-line-color); }
+
+/* Add horizontal lines behind the journal divs */
+.vision-section div.ms-journal-textarea {
+    background-image: repeating-linear-gradient(
+        to bottom,
+        transparent,
+        transparent 24px,
+        var(--vision-line-color) 24px,
+        var(--vision-line-color) 26px,
+        transparent 26px,
+        transparent 30px
+      );
+}
+.purpose-section div.ms-journal-textarea {
+    background-image: repeating-linear-gradient(
+        to bottom,
+        transparent,
+        transparent 24px,
+        var(--purpose-line-color) 24px,
+        var(--purpose-line-color) 26px,
+        transparent 26px,
+        transparent 30px
+      );
+}
+.obstacles-section div.ms-journal-textarea {
+    background-image: repeating-linear-gradient(
+        to bottom,
+        transparent,
+        transparent 24px,
+        var(--obstacles-line-color) 24px,
+        var(--obstacles-line-color) 26px,
+        transparent 26px,
+        transparent 30px
+      );
+}
+
+/* Wrapper around header & textarea-div */
+div.ms-journal-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+
+/* Style for the accordion wrapper around the journal area */
+div.ms-journal-accordion {
+    width: 100%;
+    min-height: calc(var(--line-height)*var(--min-number-lines));
+    max-height: calc(var(--line-height)*var(--max-number-lines));
+    overflow: hidden;
+}
+
+div.ms-journal-accordion.closed {
+    max-height: calc(var(--line-height)*var(--min-number-lines));
+}
+
+/*div.ms-journal-accordion.open {
+    height:fit-content;
+}*/
+
+/* Style for the editable divs where the user writes */
+div.ms-journal-content > div.ms-journal-accordion > div.ms-journal-textarea {
+    height: 100%;
+    min-height: calc(var(--line-height)*var(--min-number-lines));
+    font-size: max(min(20px, 4vw), 16px);
+    line-height: var(--line-height);
+    word-wrap: break-word;
+    outline: none;
+}
+
+/* Minimize/expand button styling */
+div.ms-journal-accordion-button {
+    display:none;
+    position:absolute;
+    right: 5px;
+    bottom: 5px;
+    margin: 5px;
+    width: var(--default-icon-size);
+    height: var(--default-icon-size);
+    border-radius: 50%;
+    background-color: #ffffff;
+    opacity: 0.5;
+    transition: opacity 0.2s;
+}
+
+div.ms-journal-accordion-button.js-hover {
+    opacity: 0.8;
+}
+
+div.ms-journal-accordion.open > div.ms-journal-accordion-button > div {
+    width:100%;
+    height:100%;
+    background: url('../icon-assets/accordion-close.svg') no-repeat center;
+}
+
+div.ms-journal-accordion.closed > div.ms-journal-accordion-button > div {
+    width:100%;
+    height:100%;
+    background: url('../icon-assets/accordion-open.svg') no-repeat center;
+}
+
+
+/* The header of a journal section: Contains the title (e.g. Vision) and the prompt. */
+div.ms-journal-header {
+    width: 100%;
+    display: flex;
+}
+
+div.ms-journal-header > div.ms-journal-prompt {
+    flex-grow: 1;
+    margin-top:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+div.ms-journal-prompt > div.ms-journal-textarea {
+    font-size: max(min(20px, 4vw), 12px);
+    font-weight: bold;
+    width:100%;
+    text-align:center;
+    line-height: calc(var(--line-height));
+    padding: 0 20px 0 0;
+}
+
+div.ms-journal-title {
+    z-index: 1;
+    border: solid 2px #000000;
+    border-radius: 17px 3px 3px 3px;
+    width: fit-content;
+    padding: 2px 4px;
+    margin: -10px 8px 4px -10px;
+    display: flex;
+    justify-content: center;
+}
+
+div.ms-journal-title > span {
+    margin: auto;
+    font-family: 'Pacifico', 'Brush Script MT', cursive;
+    font-size: min(32px, 7vw);
+}
+
+div.ms-journal-wrapper .action-icon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+/*********** Journal styling END *************/
+
+/*********** Milestone edit form styling START ************/
+
+.milestone-edit-form .field-label-box {
+    width: 100%;
+    justify-content: flex-start;
+}
+
+/*********** Milestone edit form styling END *************/
+
+/************* Milestone section START *************/
+
+.milestone-section {
+    position:relative;
+    padding: 6px;
+    flex-grow: 3;
+    display: flex;
+    flex-direction: column;
+    min-width:250px;
+    min-height: 90px;
+}
+
+.milestone-section > .add-button {
+    position: absolute;
+    right: 5px;
+    top: 0;
+}
+
+div.milestone-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    flex-grow: 1;
+    padding-right: 6px;
+}
+
+/************* Milestone section END *************/
+
+/************* Milestone listing box START *************/
+
+div.milestone-listing-box {
+    height: 100%;
+}
+
+div.milestone-listing-box > div.milestone-wrapper {
+    height: fit-content;
+}
+
+/************* Milestone listing box END *************/
+
+/************** Milestone Component Styling START *************/
+
+.milestone-wrapper
+{
+    max-width:700px;
+    width: calc(100% - 8px);
+    margin: 7px 4px;
+    border-left: solid var(--category-color) 5px;
+    background-color: white;
+    --border-rad: 16px;
+    border-radius: var(--border-rad);
+    filter: drop-shadow(3px 3px 2px rgba(119, 119, 119, 0.452));
+}
+
+.milestone-wrapper .milestone-header
+{
+    width: 100%;
+    padding: 2px 2px 2px 4px;
+    transition: background-color 0.3s;
+}
+
+div.milestone-content {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.milestone-info {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+div.milestone-name {
+    width:100%;
+}
+
+/* Goal accordion */
+
+.milestone-wrapper .accordion {
+    background-image: linear-gradient(to bottom, #dedede 0px, #ffffffff 8px);
+}
+
+.milestone-wrapper .accordion.open {
+    border-bottom-right-radius: var(--border-rad);
+    border-bottom-left-radius: var(--border-rad);
+}
+
+.milestone-wrapper .accordion-main {
+    display: flex;
+    flex-direction: column;
+}
+
+/************** Milestone Component Styling END *************/

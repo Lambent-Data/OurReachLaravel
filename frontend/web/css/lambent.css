@@ -1,0 +1,213 @@
+/* Mostly for iframe integration */
+html, body {
+    max-width: 100%  !important;
+    overflow-x: hidden !important;
+    background-color: #f8f8f8;
+}
+
+/* For making text within a tag non-selectable */
+.no-select {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
+
+/* For making a textarea blend into a document; removes the border and background */
+textarea.transparent {
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+}
+
+/* Remove border from select (dropdown) */
+select.no-border {
+    outline: 0px;
+    border: 0px;
+}
+
+/********** Custom horizontal rules START **********/
+hr.hr-fade {
+    margin: 0;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, #ccc, #333, #00000000);
+}
+
+hr.hr-fade-right {
+    margin: 0;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, #333, #00000000);
+}
+
+hr.double-line {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+
+/********** Custom horizontal rules END **********/
+
+/********** Modal styling START **********/
+body.modal-open {
+    padding-right: unset !important;
+}
+
+div.ld-modal {
+    padding: 0 !important;
+}
+
+div.ld-modal-dialog {
+    width: 100%;
+    max-width:1200px;
+    min-width: 305px;
+    margin: auto;
+}
+/********** Modal styling END **********/
+
+/********** Category-based colors START ************/
+* {
+    --default-icon-size: 40px;
+    --housing-color: #118ab2;
+    --money-color: #216c2a;
+    --education-color: #073b4c;
+    --jobs-color: #ffa42c;
+    --health-color: #d13156;
+    --children-color: #795dc0;
+    --other-color: #5dc0c0;
+
+    --clear-housing-color: #DDFFFF;
+    --clear-money-color: #EDFFF6;
+    --clear-education-color: #D3FFFF;
+    --clear-jobs-color: #FFFFF8;
+    --clear-health-color: #FFF3FF;
+    --clear-children-color: #FFEEFF;
+    --clear-other-color: #EEFFFF;
+}
+
+.ld-housing {
+    --category-color : var(--housing-color);
+    --clear-category-color : var(--clear-housing-color);
+    --inverse-category-color : #fff;
+}
+.ld-money {
+    --category-color : var(--money-color);
+    --clear-category-color : var(--clear-money-color);
+    --inverse-category-color : #fff;
+}
+.ld-education {
+    --category-color : var(--education-color);
+    --clear-category-color : var(--clear-education-color);
+    --inverse-category-color : #fff;
+}
+.ld-jobs {
+    --category-color : var(--jobs-color);
+    --clear-category-color : var(--clear-jobs-color);
+    --inverse-category-color : #fff;
+}
+.ld-children {
+    --category-color : var(--children-color);
+    --clear-category-color : var(--clear-children-color);
+    --inverse-category-color : #fff;
+}
+.ld-health {
+    --category-color : var(--health-color);
+    --clear-category-color : var(--clear-health-color);
+    --inverse-category-color : #fff;
+}
+.ld-other {
+    --category-color : var(--other-color);
+    --clear-category-color : var(--clear-other-color);
+    --inverse-category-color : #fff;
+}
+
+/*.ld-housing, .ld-money, .ld-education,
+.ld-jobs, .ld-children, .ld-health, .ld-other {
+}*/
+
+/********** Category-based colors END ************/
+
+/*********** Category icon styling START **********/
+div.category-icon-container {
+    font-size: min(22px, 4vw);
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;    
+}
+
+div.category-icon-container.selected .fa-circle {
+    filter: drop-shadow(0 0 10px var(--category-color)) brightness(110%);
+}
+
+div.category-icon-container.greyed-out {
+    filter: brightness(80%);
+    opacity: 60%;
+}
+
+div.category-icon-container > span {
+    color: var(--category-color);
+}
+div.category-icon-container > span > .inverse {
+    color: var(--inverse-category-color);
+}
+
+/*********** Category icon styling END **********/
+
+/********** Accordion styling START **********/
+
+div.accordion {
+    width: 100%;
+    overflow: hidden !important;
+}
+
+div.accordion-content {
+    margin: 0 !important;
+    width: 100% !important;
+    min-height: 50px;
+    position: relative;
+}
+
+div.accordion-main {
+    position: relative;
+    width: 100%;
+    padding: 21px 10px 15px 10px;
+}
+
+div.accordion-topbar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/********** Accordion styling END **********/
+
+/************* Mobile/desktop styling START **********/
+@media only screen and (min-width: 641px) {
+    .mobile-only {
+        display: none !important;
+    }   
+}
+
+@media only screen and (max-width: 640px) {
+    .desktop-only {
+        display: none !important;
+    }   
+}
+/************* Mobile/desktop styling END **********/
+
+.datepicker {
+    z-index: 15000 !important;
+}

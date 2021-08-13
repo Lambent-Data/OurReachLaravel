@@ -1,0 +1,456 @@
+/* Mark required fields with a red star */
+label.required-field::after {
+    content: "*";
+    color: red;
+    padding-left: 2px;
+}
+
+.ms-form-section {
+    width: 100%;
+    padding: 5px 15px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    transition: background-color 0.5s, padding 0.5s;
+}
+
+.ms-form-section.active {
+    padding: 15px;
+    background-color: rgb(228, 244, 255);
+}
+
+.ms-form-section.error {
+    padding: 15px;
+    background-color: rgb(255, 228, 228);
+}
+
+.ms-form-section > div.ms-form-content {
+    width: calc(300px + (100% - 320px)/2);
+    max-width:600px;
+    margin:auto;
+}
+
+.greyed-out {
+    filter: brightness(80%);
+    opacity: 0.8;
+}
+
+/********** Feedback message styling START **********/
+
+span.feedback {
+    height: 18px;
+    font-size: 16px;
+    font-weight: 400;
+    color: gray;
+}
+
+span.feedback.hidden {
+    display: none;
+}
+
+span.feedback.success {
+    color: #4bb543;
+}
+
+span.feedback.error {
+    color: #db5656;
+}
+
+/********** Feedback message styling END **********/
+
+span.field-label {
+    color: #333;
+    font-weight: 500;
+}
+
+div.field-label-box {
+    display: flex;
+    justify-content: flex-start;
+}
+
+div.field-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+div.field-label-box span,
+div.field-content span {
+    white-space: normal;
+}
+
+/********** LabelledField styling START ***********/
+div.labelled-field-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+div.labelled-field-wrapper > div.field-label-box {
+    margin: 2px 3px 0 0;
+}
+
+/********** LabelledField styling END ************/
+
+/********** TextInput styling START **********/
+
+div.text-input-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+div.text-input-wrapper span.field-label {
+    padding: 3px 5px 0px 0px;
+}
+
+div.text-input-wrapper span.feedback {
+    margin-left: 10px;
+}
+
+div.text-input-wrapper span.text-input-display {
+    padding: 3px 4px;
+}
+
+div.text-input-wrapper span.text-input-display.no-value {
+    color: gray;
+}
+
+div.text-input-wrapper.editing span.text-input-display {
+    display:none;
+}
+
+div.text-input-wrapper input {
+    display: none;
+}
+
+div.text-input-wrapper.editing input {
+    display: initial;
+}
+
+/********** TextInput styling END **********/
+
+/********** TimeInput styling START **********/
+
+div.time-input-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+div.time-input-wrapper span.field-label {
+    padding: 3px 5px 0px 0px;
+}
+
+div.time-input-wrapper input {
+    width: 150px;
+}
+
+div.time-input-wrapper input:read-only {
+    border-color: transparent;
+    outline: none !important;
+    color: black;
+    background-color: transparent;
+}
+
+div.time-input-wrapper span.feedback {
+    margin-left: 10px;
+}
+
+/********** TimeInput styling END **********/
+
+/********** DateTime styling START **********/
+
+div.date-time-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+div.date-time-wrapper span.field-label {
+    padding: 2px 5px 0px 0px;
+}
+
+div.date-time-wrapper div.date-time-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div.date-time-wrapper div.date-time-content > div {
+    width: auto;
+    padding: 0;
+}
+
+div.date-time-wrapper span.feedback {
+    margin-left: 10px;
+}
+
+/********** DateTime styling END **********/
+
+/********** TextArea styling START **********/
+
+div.text-area-wrapper {
+    width: 100%;
+    border-radius: 10px;
+}
+
+div.text-area-wrapper span.field-label {
+    padding: 0px 5px 0px 0px;
+}
+
+div.text-area-wrapper div.text-area.no-value {
+    color: gray;
+}
+
+div.text-area-wrapper div.text-area {
+    --min-number-lines: 3;
+    --line-height: 26px;
+    height: 100%;
+    max-width: 100%;
+    min-width: 200px;
+    min-height: calc(var(--line-height)*var(--min-number-lines));
+    font-size: 16px;
+    line-height: var(--line-height);
+    word-wrap: break-word;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-image: repeating-linear-gradient(
+        to bottom,
+        transparent 0px,
+        transparent 21px,
+        #ccc 21px,
+        #ccc 22px,
+        transparent 22px,
+        transparent 26px
+      );
+}
+
+div.text-area-wrapper.editing div.text-area {
+    background-image: repeating-linear-gradient(
+        to bottom,
+        transparent 0px,
+        transparent 21px,
+        black 21px,
+        black 22.5px,
+        transparent 22.5px,
+        transparent 26px
+      );
+}
+
+div.text-area-wrapper span.feedback {
+    margin-left: 10px;
+}
+
+/********** TextArea styling END **********/
+
+/********** Dropdown styling START **********/
+
+div.dropdown-wrapper {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+div.dropdown-wrapper span.field-label {
+    padding: 1px 5px 0px 0px;
+}
+
+div.dropdown-wrapper span.dropdown-display {
+    padding-left: 5px;
+    padding-top: 1px;
+    height: 25px;
+    max-width: 100%;
+    text-overflow: ellipsis;
+}
+
+div.dropdown-wrapper span.dropdown-display.no-value {
+    color: gray;
+}
+
+div.dropdown-wrapper.editing span.dropdown-display {
+    display:none;
+}
+
+div.dropdown-wrapper select {
+    display: none;
+    max-width: 100%;
+    text-overflow: ellipsis;
+}
+
+div.dropdown-wrapper.editing select {
+    display: initial;
+}
+
+div.dropdown-wrapper span.feedback {
+    margin-left: 10px;
+}
+
+/********** Dropdown styling END **********/
+
+/********** DateInput styling START **********/
+
+div.date-input-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+div.date-input-wrapper span.field-label {
+    padding: 3px 5px 0px 0px;
+}
+
+div.date-input-wrapper input {
+    width: auto;
+}
+
+div.date-input-wrapper span.date-input-display {
+    padding: 3px 0px 3px 4px;
+}
+
+div.date-input-wrapper span.date-input-display.no-value {
+    color: gray;
+}
+
+div.date-input-wrapper.editing span.date-input-display {
+    display:none;
+}
+
+div.date-input-wrapper input {
+    display: none;
+}
+
+div.date-input-wrapper.editing input {
+    display: initial;
+}
+
+div.date-input-wrapper span.feedback {
+    margin-left: 10px;
+}
+
+/********** DateInput styling END **********/
+
+/********** Measure Component styling START *********/
+
+div.measure-wrapper div.field-label-box {
+    width: 100%;
+}
+
+/********** Measure Component styling END *********/
+
+/********* Checkbox styling START ***********/
+
+div.checkbox-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+div.checkbox-wrapper input {
+    margin:5px;
+}
+
+/********* Checkbox styling END ***********/
+
+/********** Comment Textarea Component styling START *********/
+
+div.comment-text-area-wrapper {
+    flex-grow: 1;
+}
+
+div.comment-text-area {
+    padding: 5px;
+    border: 1px solid rgb(233, 233, 233);
+    min-height: 60px;
+}
+
+div.comment-text-area-wrapper.editing div.comment-text-area {
+    border: 2px solid grey;
+    border-radius: 3px;
+}
+
+div.comment-text-area.no-value {
+    color: grey;
+}
+
+/********** Comment Textarea Component styling END *********/
+
+/********** CategorySelect styling START **********/
+
+div.category-select-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+div.category-select-wrapper span.field-label {
+    padding: 3px 5px 0px 0px;
+}
+
+div.category-select-wrapper span.feedback {
+    margin: auto;
+}
+
+div.category-select-wrapper .icon-box {
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/********** CategorySelect styling END **********/
+
+/********* Milestone form styling START ************/
+
+/* For the milestone name, either use the template dropdown or fill in your own */
+#milestone-name-group.template-milestone #milestone-name-input {
+    opacity: 0.6;
+    background-color: #eee;
+    border: solid 1px #aaa;
+}
+
+#milestone-name-group.template-milestone #ms-form-or,
+#milestone-name-group.custom-milestone #ms-form-or {
+    opacity: 0.25;
+}
+
+#milestone-name-group.custom-milestone #template-input {
+    opacity: 0.6;
+    background-color: #eee;
+}
+
+/********* Milestone form styling END ************/
+
+/********* Text Button styling START ***********/
+
+button.primary-contained {
+    margin:3px;
+	background: #016ba8;
+	color: #fff;
+	padding: 10px 10px;
+	border: none;
+	margin-top: 0px;
+	cursor: pointer;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.25);
+	transition: 1s all;
+	font-size: 10px;
+	border-radius: 5px;
+}
+
+button.primary-contained.js-hover {
+	background: #9201A8;
+}
+
+/********* Text Button styling END ***********/
