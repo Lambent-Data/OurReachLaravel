@@ -6,7 +6,7 @@ import { DateTimeToDatabaseFormat } from "./time";
 const secure = true; // In progress
 
 //(subdomain === 'development' || subdomain === 'demo' || subdomain === 'younglives');
-const subdomain = 'younglives';
+const subdomain = 'development';
 const runningLocal = Boolean(parseInt($('body').attr('data-local')));
 
 console.log("Subdomain: ", subdomain);
