@@ -19,7 +19,7 @@ files:
   destination: /var/www/phplaravel/storage/
 - source: /tests
   destination: /var/www/phplaravel/tests/
-- source: /.env.example
+- source: /.env
   destination: /var/www/phplaravel/
 - source: /.gitattributes
   destination: /var/www/phplaravel/
@@ -31,7 +31,7 @@ files:
   destination: /var/www/phplaravel/
 - source: /composer.lock
   destination: /var/www/phplaravel/
-- source: /gulpfile.js
+- source: /webpack.mix.js
   destination: /var/www/phplaravel/
 - source: /index.php
   destination: /var/www/phplaravel/
