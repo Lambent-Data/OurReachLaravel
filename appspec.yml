@@ -19,6 +19,8 @@ files:
   destination: /var/www/phplaravel/storage/
 - source: /tests
   destination: /var/www/phplaravel/tests/
+- source: /.env
+  destination: /var/www/phplaravel/
 - source: /.gitattributes
   destination: /var/www/phplaravel/
 - source: /.gitignore
