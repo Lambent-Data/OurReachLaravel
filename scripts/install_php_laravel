@@ -1,6 +1,5 @@
 #!/bin/bash
 cd /var/www/phplaravel
-rm .env
 amazon-linux-extras install php7.3=7.3.13
 yum -y update
 yum -y install php-mbstring-7.3.13-1.amzn2 php-pecl-mcrypt-1.0.1-3.amzn2.0.2 php-devel-7.3.13-1.amzn2 php-xml-7.3.13-1.amzn2
