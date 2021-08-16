@@ -44,6 +44,9 @@ files:
 - source: /scripts/requirements.txt
   destination: /home/ec2-user/scripts
 hooks:
+  BeforeInstall:
+  - location: scripts/before_install
+    timeout: 300
   AfterInstall:
   - location: scripts/install_python3
     timeout: 300
