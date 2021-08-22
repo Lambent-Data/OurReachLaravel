@@ -6,4 +6,3 @@ yum -y install php-mbstring-7.3.13-1.amzn2 php-pecl-mcrypt-1.0.1-3.amzn2.0.2 php
 curl -s https://getcomposer.org/installer | php
 php composer.phar install
 mv composer.phar /usr/local/bin/composer
-cp .env.example .env
