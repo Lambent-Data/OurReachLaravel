@@ -1,5 +1,5 @@
 /*** Import standard utilities ***/
-import '../js-styles.js'
+import '../utilities/js-styles.js'
 import Milestone from '../classes/data-sources/Milestone.js'
 import User from '../classes/data-sources/User.js'
 import MilestoneViewPage from '../classes/components/page-components/MilestoneViewPage.js'

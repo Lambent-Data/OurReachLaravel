@@ -1,5 +1,5 @@
 /*** Import standard utilities ***/
-import '../js-styles.js'
+import '../utilities/js-styles.js'
 
 import TestPage from '../classes/components/page-components/TestPage.js';
 import Milestone from '../classes/data-sources/Milestone.js';

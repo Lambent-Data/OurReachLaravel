@@ -1,5 +1,6 @@
 import Milestone from "./Milestone";
-import { noImagePath, userIconsPath, makeRequest } from "../../utilities/request";
+import { noImagePath, userIconsPath } from "../../env"
+import { makeRequest } from "../../utilities/request";
 import { UserRole } from "../../utilities/enums";
 
 export default class User {

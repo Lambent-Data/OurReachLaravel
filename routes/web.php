@@ -18,9 +18,12 @@ use Illuminate\Database\Eloquent\ModelNotFoundException;
 |
 */
 
-Route::get('/', function (Request $request) {
-    return view('welcome', ['ruko_user' => $request->input('ruko_user')]);
+/* Redirect all ourreach/index.php traffic to ruko side of things. Also the root path. */
+Route::get('/ourreach/index.php', function(){
+    return view('ruko');
 });
+
+Route::permanentRedirect('/', '/ourreach/index.php');
 
 Route::get('/formtest', function () {
     return view('form-testing');
@@ -77,3 +80,4 @@ Route::match(['get', 'post'], '/ruko/milestone/{ruko_id}', function (Request $re
 Route::get('/log/reset', function () {
     return file_get_contents("../log/reset_goals.txt");
 });
+

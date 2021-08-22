@@ -1,4 +1,4 @@
-<html>
+<html lang="en">
   <body>
     <head>
       <title>Query test page</title>

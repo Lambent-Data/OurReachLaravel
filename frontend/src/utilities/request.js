@@ -2,20 +2,7 @@ import User from "../classes/data-sources/User";
 import { Pages } from "./enums";
 import { DateTime } from "luxon";
 import { DateTimeToDatabaseFormat } from "./time";
-
-const secure = true; // In progress
-
-//(subdomain === 'development' || subdomain === 'demo' || subdomain === 'younglives');
-const subdomain = 'development';
-const runningLocal = Boolean(parseInt($('body').attr('data-local')));
-
-console.log("Subdomain: ", subdomain);
-
-const userIconsPath = 'https://' + subdomain + '.ourreachld.com/ourreach/uploads/users/';
-const noImagePath = 'https://' + subdomain + '.ourreachld.com/ourreach/images/no_photo.png';
-
-const endpoint = runningLocal ? 'http://localhost/' : 'https://ourreachld.com/';
-const ruko_endpoint = 'https://' + subdomain + '.ourreachld.com/ourreach/index.php?module=ldbackend/';
+import { secure, subdomain, runningLocal, endpoint, ruko_endpoint } from '../env'
 
 async function makeRequest(req) {
   // Only allow objects to be sent as data, not plain strings, ints, etc.
@@ -55,7 +42,7 @@ async function makeRequest(req) {
           reject(data);
         }
       };
-      window.parent.postMessage({request: {url: ruko_endpoint, type: "POST", data: req}}, 'https://' + subdomain + '.ourreachld.com', [channel.port2]);
+      window.parent.postMessage({request: {url: ruko_endpoint, type: "POST", data: req}}, 'https://ourreachld.com', [channel.port2]);
     });
     return p;
   }else{
@@ -113,4 +100,4 @@ function redirect(path) {
   }
 }
 
-export { subdomain, endpoint, userIconsPath, noImagePath, makeRequest, redirect }
+export { makeRequest, redirect }

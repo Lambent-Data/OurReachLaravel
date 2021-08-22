@@ -1,5 +1,5 @@
 /*** Import standard utilities ***/
-import '../js-styles.js'
+import '../utilities/js-styles.js'
 
 /*** Import entity classes ***/
 import Milestone from '../classes/data-sources/Milestone.js'
