@@ -1,0 +1,922 @@
+.form-group-1171 {
+  display:none;
+}
+
+/* Hide particular link to Ruko site in Reports Groups page (currently that link is hidden) */
+a[href^="https://docs.rukovoditel.net/index.php?p=68"] {
+  display: none;
+}
+
+/* Hide Reports Groups link in menu: Reports > Reports Groups */
+ul.sub-menu > li > a[href^="http://younglives.ourreachld.com/ourreach/index.php?module=reports_groups/reports"] {
+  display: none !important;
+}
+
+/* Hide Configure Theme in the user dropdown (top right) */
+a[onclick$="module=dashboard/configure_theme')"] {
+  display:none !important;
+}
+
+/* Hide Configure Dashboard in the user dropdown (top right) */
+a[onclick$="module=dashboard/configure')"] {
+  display:none !important;
+}
+
+/* For google translate integration: This styling prevents a little jitter on the top bar when each page loads */
+#google_translate_element {
+  position:absolute;
+}
+
+/* Styling for milestone page. */
+/* Hide the search bar, but not the listings config */
+div.page-content > div.row > div.col-md-12 > div.row > div.col-sm-5 > div.entitly-listing-buttons-right1 > form {
+  display: none;
+}
+
+/* Hide the "Select All" Checkbox*/
+div.page-content > div.row > div.col-md-12 > div.row > div.col-sm-5 > div.entitly-listing-buttons-left > label {
+	display:none;
+}
+
+/* Styling for mobile milestone page: increase button size and spacing. */
+@media (max-width: 480px) {
+  /* Button sizes */
+  .btn-default.btn-xs.purple {
+    padding : 8px 12px;
+    margin: 5px 0px 12px 10px;
+  }
+  .btn-primary.btn-sm.btn-process-11 {
+    padding: 12px 17px;
+    margin: 10px 0px 10px 10px;
+  }
+  /* Hide the listings config */
+  div.page-content > div.row > div.col-md-12 > div.row > div.col-sm-5 > div.entitly-listing-buttons-right1 {
+  	display: none;
+  }
+}
+
+
+/* Table css */
+.table-striped > tbody > tr:nth-child(odd) > td,
+.table-striped > tbody > tr:nth-child(odd) > th {
+    background: #273d8720;
+}
+
+.table-striped > tbody > tr:nth-child(odd):hover {
+    background: #273d8725;
+}
+
+.table-striped > tbody > tr:nth-child(even) > td,
+.table-striped > tbody > tr:nth-child(even) > th {
+    background: white;
+}
+
+.table-scrollable {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.table-bordered > thead > tr > th,
+.table-bordered > tbody > tr > th,
+.table-bordered > tfoot > tr > th,
+.table-bordered > thead > tr > td,
+.table-bordered > tbody > tr > td,
+.table-bordered > tfoot > tr > td {
+    border: none;
+}
+
+/* space out things */
+.entity_items_listing .listing-grid li table tbody tr td {
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+}
+
+/* Login form */
+.login .content .form-actions {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.login-page-logo img {
+    max-width: 360px;
+    border-radius: 4px;
+}
+
+@media (max-width: 480px) {
+    .login-page-logo img {
+        width: 280px;
+    }
+}
+
+/* logo above menu */
+.logo img {
+    max-width: 189px;
+    border-radius: 20px;
+}
+
+/* Hide Resources Folder tab and all its subfolders */
+ul.page-sidebar-menu li a[href$="index.php?module=ext/ipages/view&id=11"],
+ul.page-sidebar-menu
+    li
+    a[href$="index.php?module=ext/ipages/view&id=11"]
+    + .sub-menu {
+    display: none !important;
+}
+
+/******************************************** Resources css *****************************************/
+/*************************************** Resources grid **********************************************/
+.back-icon {
+    font-size: 1.5rem;
+}
+
+.resource-grid h4 {
+    font-weight: bold !important;
+}
+/* Image */
+.resource-thumb {
+    object-fit: cover !important;
+    max-width: 100% !important;
+    max-height: 250px;
+    height: auto !important;
+    border-radius: 10px;
+}
+
+/* displays as grid */
+ul.resource-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-top: 10px;
+    grid-gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+ul.resource-grid > li {
+    padding: 8px 8px 8px 8px;
+    transition: box-shadow 0.1s;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    overflow: hidden;
+    text-align: center;
+}
+
+ul.resource-grid > li > img {
+    height: auto;
+    width: 80%;
+    object-fit: cover;
+}
+
+/* media queries to make features responsive (must be placed)
+  after */
+@media screen and (max-width: 630px) {
+    /* display as grid in mobile */
+    ul.resource-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/************************************ Resources info pages *************************************/
+
+@media (min-width: 992px) {
+    .anchor {
+        display: block;
+        height: 70px;
+        margin-top: -70px;
+        visibility: hidden;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.back-icon {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-weight: 500 !important;
+}
+
+#toc_container {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: auto;
+    padding-left: 20px;
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+}
+
+#toc_container li,
+#toc_container ul,
+#toc_container ul li {
+    list-style: outside none none !important;
+}
+
+.subheading {
+    padding-left: 20px;
+}
+
+.page-wrapper {
+    padding: 20px;
+    line-height: 1.8;
+}
+
+.toc_list {
+    padding: 0;
+}
+
+/* headers in resources page */
+div[id$="Point_Header"] + h5 {
+    font-size: 23px;
+    font-weight: 600 !important;
+}
+
+/************************************* End resources *****************************************/
+
+/* Make the templates button on the entity forms more conspicuous */
+.modal-title .btn-group .btn.dropdown-toggle {
+    background: orange;
+}
+.modal-title .btn-group .btn.dropdown-toggle::before {
+    content: "Templates ";
+}
+
+/* make the thumbnails in grid view the same width as the grid */
+.fieldtype-image-container {
+    margin: 0 auto;
+    width: 100% !important;
+    max-height: 175px !important;
+    text-align: center;
+}
+
+.fieldtype-image-container img {
+    object-fit: cover !important;
+    max-width: 60% !important;
+    height: auto !important;
+}
+
+.item-content-box .fieldtype-image-container img {
+    max-width: 30% !important;
+}
+
+/* make the title name in grid view bigger */
+.listing-grid .item_heading_link {
+    font-size: 1.5em;
+}
+
+.listing-section-heading {
+    margin-top: 10px;
+}
+
+/* hide the dashboard configs for now, since they are confusing */
+.toggler {
+    display: none;
+}
+
+/*
+    .header {
+      min-height: 8.5vh;
+      padding: 5px 5px 5px 5px;
+    } 
+    */
+
+/* Attempting to make navbar bigger */
+@media (min-width: 992px) {
+    .clearfix {
+        padding-top: 15px;
+    }
+}
+
+.header {
+    height: 60px;
+}
+
+.header.navbar.navbar-inverse.navbar-fixed-top.noprint * {
+    line-height: 30px;
+}
+
+.header .navbar-nav > li.dropdown.user .dropdown-toggle {
+    padding: 10px 10px 16px 10px;
+}
+
+.badge {
+    display: inline;
+}
+.header .navbar-nav > li.dropdown .dropdown-toggle .badge {
+    margin-bottom: 3px !important;
+}
+
+.page-title {
+    margin-top: 10px;
+}
+
+/* Grid config */
+ul.listing-grid > li {
+    border-radius: 10px;
+}
+
+.list-inline {
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.fieldtype-image-container {
+    border: none;
+    margin: 2px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+/* Hide the All/Completed/In Progress buttons when the page is not wide enough for them to look nice. */
+@media (max-width: 767px) {
+  .reports-counter-715, .reports-counter-766, .reports-counter-767 {
+    display: none;
+  }
+}
+
+ul.listing-grid > li,
+.stats-overview-cont .stats-overview {
+    padding: 8px 8px 8px 8px;
+    transition: box-shadow 0.1s;
+}
+
+ul.listing-grid > li:hover,
+.stats-overview-cont .stats-overview:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.1s;
+}
+
+/* breadcrumb: integrate it without the gray strip, which clutters page */
+.page-content .page-breadcrumb.breadcrumb {
+    background: #fafafa;
+    border: none !important;
+}
+
+/* other features */
+a {
+    color: #bf7113;
+    text-decoration: none !important;
+    transition: 0.1s ease;
+    font-weight: 500;
+}
+
+a:hover {
+    /* opacity: 0.8; */
+    color: #44413e;
+    /* text-shadow: 1px 1px 1px rgba(241, 240, 241, 0.3) !important; */
+}
+
+.page-title {
+    color: #273d87;
+    text-transform: uppercase;
+    font-weight: 600 !important;
+    letter-spacing: 0.7px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer.noprint {
+    display: none;
+}
+
+/* active button */
+span.label.label-success {
+    background: #273d87;
+}
+
+/* navbar brand */
+.header-inner .navbar-brand {
+    font-weight: 700;
+}
+
+/* navbar header for mobile change */
+.navbar-header .navbar-toggle {
+    border-color: #bf7113;
+    opacity: 0.8;
+}
+
+.navbar-header span {
+    color: #bf7113;
+}
+
+/* make color orange on navbar bar */
+.navbar-toggle + .navbar-brand {
+    color: #bf7113;
+    font-weight: 500;
+}
+
+/* Messages tab*/
+.app-chat-button {
+    background: #16a08b;
+    border-radius: 10px 10px 0 0;
+}
+
+.page-content {
+    border-radius: 10px 0 0 0;
+}
+
+.sidebar-toggler {
+    display: none;
+}
+
+.fa.fa-download {
+    font-size: 20px;
+}
+
+/* give selected report counter a faint orange background */
+.stats-overview.selected {
+    background-color: rgba(225, 211, 197, 0.4);
+}
+
+
+/* center dashboard text*/
+.page-title + p {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* centers number fields in reports*/
+td.fieldtype_formula {
+    text-align: left !important;
+}
+
+/* tabs on bar */
+.navbar-nav li[class^="common-filter"] a {
+    font-weight: 600;
+}
+
+/* SKIN - WILL BE IN SEPARATE FILE, BUT FOR NOW, TESTING HERE */
+/***************************************************************************************************************************************/
+/***
+    Default theme
+    ***/
+/***
+    Reset and overrides  
+    ***/
+body {
+    color: #222222;
+    background: #273d87; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to bottom,
+        #273d87,
+        #273d82 50%
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to bottom,
+        #273d87,
+        #273d82 50%
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/***
+      Page header
+      ***/
+.header {
+    filter: none;
+    background-image: none;
+    background: #273d87 !important; /* fallback for old browsers */
+}
+.header .navbar-nav .dropdown-toggle:hover,
+.header .navbar-nav .dropdown.open .dropdown-toggle {
+    background-color: #00000020 !important;
+}
+.header .navbar-nav li.dropdown .dropdown-toggle i {
+    color: #ffffff !important;
+}
+.header .navbar-nav > li.devider {
+    border-left: 1px solid #484a4f !important;
+}
+.header .navbar-nav > li.dropdown.user .dropdown-toggle .username {
+    color: #ffffff !important;
+}
+.header .search-form .form-control,
+.page-sidebar-menu .search-form .form-control {
+    color: #7e818a !important;
+    background-color: #4d4f55 !important;
+    border-color: #1d1d1f !important;
+}
+.header .search-form .input-icon > i,
+.page-sidebar-menu .search-form .input-icon > i {
+    color: #292a2d !important;
+}
+/***
+      Page sidebar
+      ***/
+.page-sidebar {
+    background: none !important;
+}
+ul.page-sidebar-menu > li > a {
+    border-top: none !important;
+    border-bottom: none !important;
+    color: #ffffff !important;
+}
+ul.page-sidebar-menu > li:last-child > a {
+    border-bottom: 1px solid transparent !important;
+}
+ul.page-sidebar-menu > li a i {
+    color: #ffffff !important;
+}
+ul.page-sidebar-menu > li.open > a,
+ul.page-sidebar-menu > li > a:hover,
+ul.page-sidebar-menu > li:hover > a {
+    background: #00000020 !important;
+}
+ul.page-sidebar-menu > li.active > a {
+    color: #ffffff !important;
+    background: #00000020 !important;
+    border-top: none !important;
+    border-bottom: none !important;
+}
+
+ul.page-sidebar-menu > li.active {
+    border-right: 4px solid #e9993c !important;
+}
+
+ul.page-sidebar-menu > li.active > a i {
+    color: #ffffff !important;
+}
+ul.page-sidebar-menu > li > ul.sub-menu > li:first-child > a {
+    border-top: 0px !important;
+}
+ul.page-sidebar-menu > li > ul.sub-menu > li.active > a,
+ul.page-sidebar-menu > li > ul.sub-menu > li > a:hover {
+    color: #ffffff !important;
+    background: #00000020 !important;
+}
+ul.page-sidebar-menu > li > ul.sub-menu > li > a:hover {
+    background: #00000020 !important;
+}
+/* 3rd level sub menu */
+ul.page-sidebar-menu > li > ul.sub-menu li > ul.sub-menu > li.active > a,
+ul.page-sidebar-menu > li > ul.sub-menu li > ul.sub-menu > li > a:hover,
+ul.page-sidebar-menu > li > ul.sub-menu li.open > a {
+    color: #ffffff !important;
+    background: #00000020 !important;
+}
+/* font color for all sub menu links*/
+ul.page-sidebar-menu li > ul.sub-menu > li > a {
+    color: #ffffff !important;
+}
+/* menu arrows */
+ul.page-sidebar-menu > li > a .arrow:before,
+ul.page-sidebar-menu > li > a .arrow.open:before {
+    color: #ffffff !important;
+}
+ul.page-sidebar-menu > li > ul.sub-menu a .arrow:before,
+ul.page-sidebar-menu > li > ul.sub-menu a .arrow.open:before {
+    color: #ffffff !important;
+}
+ul.page-sidebar-menu > li > a > .arrow.open:before {
+    color: #ffffff !important;
+}
+ul.page-sidebar-menu > li.active > a .arrow:before,
+ul.page-sidebar-menu > li.active > a .arrow.open:before {
+    color: #ffffff !important;
+}
+/* sub menu bg color on hover menu item */
+.page-sidebar-closed ul.page-sidebar-menu > li:hover .sub-menu {
+    background-color: #35363a !important;
+}
+/***
+      Footer 
+      ***/
+.footer .footer-inner {
+    color: #ffffff !important;
+}
+.footer .footer-tools .go-top {
+    background-color: #4d4f55 !important;
+}
+.footer .footer-tools .go-top:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+.footer .footer-tools .go-top i {
+    color: #7e818a !important;
+}
+/* begin:fixed footer */
+.page-footer-fixed .footer {
+    background-color: #292a2d !important;
+}
+.page-footer-fixed .footer .footer-inner {
+    color: #7e818a !important;
+}
+.page-footer-fixed .footer .footer-tools .go-top {
+    background-color: #5a5b62 !important;
+}
+.page-footer-fixed .footer .footer-tools .go-top i {
+    color: #c1c2c6 !important;
+}
+/* end:fixed footer */
+/***
+      
+      /* begin: boxed page */
+@media (min-width: 992px) {
+    .page-boxed {
+        background-color: #35363a !important;
+    }
+    .page-boxed .page-container {
+        background-color: #35363a;
+        border-left: 1px solid #4d4f55;
+        border-bottom: 1px solid #4d4f55;
+    }
+    .page-boxed.page-sidebar-reversed .page-container {
+        border-left: 0;
+        border-right: 1px solid #4d4f55;
+    }
+    .page-boxed.page-sidebar-fixed .page-container {
+        border-left: 0;
+        border-bottom: 0;
+    }
+    .page-boxed.page-sidebar-reversed.page-sidebar-fixed .page-container {
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 0;
+    }
+    .page-boxed.page-sidebar-fixed .page-sidebar {
+        border-left: 1px solid #4d4f55;
+    }
+    .page-boxed.page-sidebar-reversed.page-sidebar-fixed .page-sidebar {
+        border-right: 1px solid #4d4f55;
+        border-left: 0;
+    }
+    .page-boxed.page-sidebar-fixed.page-footer-fixed .footer {
+        background-color: #292a2d !important;
+    }
+}
+/* end: boxed page */
+/***
+      Landscape phone to portrait tablet
+      ***/
+@media (max-width: 991px) {
+    /***
+          page sidebar
+          ***/
+    .page-sidebar {
+        /* background-color: #1d1d1f !important;
+          -webkit-border-radius: 4px !important;
+          -moz-border-radius: 4px !important;
+          border-radius: 4px !important;*/
+    }
+    ul.page-sidebar-menu > li > a {
+        /* border-top: 1px solid #292a2d;
+          border-bottom: 1px solid #101112;*/
+    }
+    ul.page-sidebar-menu > li:last-child > a {
+        border-bottom: 0 !important;
+    }
+    ul.page-sidebar-menu > li.open > a,
+    ul.page-sidebar-menu > li > a:hover,
+    ul.page-sidebar-menu > li:hover > a {
+        background: #00000020;
+    }
+}
+@media (max-width: 480px) {
+    .header .navbar-nav > li.devider {
+        border-left: 1px solid #414247 !important;
+    }
+}
+
+/**************************************************************************************************************/
+/*** Login page ***/
+
+/* logo page */
+.login {
+    background-color: #515255;
+}
+
+.login .logo {
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 15px;
+    text-align: center;
+}
+
+.login .content {
+    background-color: #fff;
+    width: 360px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border-radius: 4px;
+}
+
+.login .content h4 {
+    color: #555;
+}
+
+.login .content p {
+    color: #222;
+}
+
+.login .content .login-form,
+.login .content .forget-form {
+    padding: 0px;
+    margin: 0px;
+}
+
+.login .content .forget-form {
+}
+
+.login .content .register-form {
+    display: none;
+}
+
+.login .content .form-title {
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+.login .content .form-actions .checkbox {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.login .content .forget-form .form-actions {
+    border: 0;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+
+.login .content .register-form .form-actions {
+    border: 0;
+    margin-bottom: 0;
+    padding-bottom: 0px;
+}
+
+.login .content .form-actions .checkbox {
+    margin-top: 8px;
+    display: inline-block;
+}
+
+.login .content .form-actions .btn {
+    margin-top: 1px;
+}
+
+.login .content .forget-password {
+    margin-top: 25px;
+}
+
+.login .content .create-account {
+    border-top: 1px dotted #eee;
+    padding-top: 10px;
+    margin-top: 15px;
+}
+
+.login .content .create-account a {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+/* select2 dropdowns */
+
+.login .content .select2-container i {
+    display: inline-block;
+    position: relative;
+    color: #ccc;
+    z-index: 1;
+    top: 1px;
+    margin: 4px 4px 0px 3px;
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.login .content .has-error .select2-container i {
+    color: #b94a48;
+}
+
+.login .content .select2-container a span {
+    font-size: 13px;
+}
+
+.login .content .select2-container a span img {
+    margin-left: 4px;
+}
+
+/* footer copyright */
+.login .copyright {
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 13px;
+}
+
+@media (max-width: 480px) {
+    /***
+        Login page
+        ***/
+    .login .logo {
+        margin-top: 10px;
+    }
+
+    .login .content {
+        padding: 20px;
+        width: 280px;
+    }
+
+    .login .content h3 {
+        font-size: 22px;
+    }
+
+    .login .checkbox {
+        font-size: 13px;
+    }
+}
+
+/* buttons */
+.btn.btn-primary,
+.btn.btn-info {
+    background: #273d87; /* fallback for old browsers */
+    border: 1px solid #273d87;
+    transition: all 0.1s ease !important;
+}
+
+.btn.btn-primary:hover,
+.btn.btn-info:hover {
+    background: #364b8f; /* fallback for old browsers */
+    border: 1px solid #364b8f;
+    box-shadow: 1px 1px 1px rgba(76, 58, 106, 0.3) !important;
+}
+
+/* rectangles in Milestone Progress in reports tab */
+#funnelchart_container_1
+    .highcharts-series.highcharts-tracker
+    rect:nth-child(1),
+#funnelchart_container_4
+    .highcharts-series.highcharts-tracker
+    rect:nth-child(1) {
+    fill: #273d87;
+}
+#funnelchart_container_1
+    .highcharts-series.highcharts-tracker
+    rect:nth-child(2),
+#funnelchart_container_4
+    .highcharts-series.highcharts-tracker
+    rect:nth-child(2) {
+    fill: #e9993c;
+}
+
+.funnelchart-type-switch .btn-group .active {
+    background: #273d87;
+    color: #fff;
+}
+
+/* all rectangles in reports section */
+.highcharts-container {
+    width: 100% !important;
+}
+
+/* up to top button */
+#toTop {
+    background-color: #273d87;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+/* media queries to make features responsive */
+@media screen and (max-width: 630px) {
+    /* make iframe width of 90% */
+    iframe {
+        width: 90%;
+    }
+    /* display as grid in mobile */
+    #entity_items_listing158_33 ul.listing-mobile {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .page-breadcrumb {
+        display: none;
+    }
+}
+
+/* END SKIN*/
+/***************************************************************************************************************************************/
+
+/* Global Search at the top of each page*/
+.header .search-form .form-control,
+.page-sidebar-menu .search-form .form-control {
+    background-color: white !important;
+    border-color: white !important;
+    margin: 10px 10px 10px 10px;
+}
+
+/* Hide magnifying glass icon in global search bar */
+.header .search-form .input-icon > i,
+.page-sidebar-menu .search-form .input-icon > i {
+    display: none;
+}
