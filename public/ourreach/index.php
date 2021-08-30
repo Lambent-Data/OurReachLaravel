@@ -82,7 +82,9 @@
         // Continue with regular Ruko output
         require('template/' . $app_layout);
       }
+      
       // Add some custom js to every page.
+      echo '<script type="text/javascript">let externalUserId = "'.$app_user['id'].'"</script>';
       echo '<script type="text/javascript" src="lambent/all-pages.js"></script>';
     }
 
